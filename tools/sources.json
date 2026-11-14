@@ -1,0 +1,29 @@
+{
+    "mode": "collecte",
+    "mots_interdits": true,
+    "fichiers_generes": ["LISTE.md"],
+    "source": "data.gouv.fr, catalogue des API",
+    "page": "https://www.data.gouv.fr/dataservices/",
+    "catalogue": "https://www.data.gouv.fr/api/1/dataservices/",
+    "par_page": 100,
+    "pages_max": 50,
+    "pause_s": 1,
+    "essais": 3,
+    "delai_s": 60,
+    "taille_max_page": 20000000,
+    "seuil_disparitions_pct": 20,
+    "test": {
+        "delai_s": 10,
+        "redirections_max": 3,
+        "taille_max_corps": 65536,
+        "intervalle_hote_s": 1,
+        "pause_second_essai_s": 5,
+        "simultanes": 8,
+        "echecs_consecutifs_max": 3,
+        "duree_max_s": 3000,
+        "seuil_injoignables_pct": 30,
+        "seuil_changements_pct": 25,
+        "passages": 8,
+        "passages_min": 3
+    }
+}

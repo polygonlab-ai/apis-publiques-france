@@ -1,0 +1,828 @@
+{
+    "data": [
+        {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived_at": null,
+            "authorization_request_url": null,
+            "availability": null,
+            "availability_url": null,
+            "badges": [],
+            "base_api_url": "https://interne.example.net/api",
+            "business_documentation_url": null,
+            "contact_points": [
+                {
+                    "id": "cccc0000000000000000a009",
+                    "name": "Équipe d'essai",
+                    "email": "equipe-a009@example.com",
+                    "role": "contact"
+                }
+            ],
+            "created_at": "2026-03-02T09:15:00.000000+00:00",
+            "datasets": {
+                "rel": "subsection",
+                "href": "https://www.data.gouv.fr/api/1/datasets/?dataservice=aaaa0000000000000000a009",
+                "type": "GET",
+                "total": 1
+            },
+            "deleted_at": null,
+            "description": null,
+            "extras": {
+                "is_franceconnect": false
+            },
+            "featured": false,
+            "format": "REST",
+            "harvest": null,
+            "id": "aaaa0000000000000000a009",
+            "license": null,
+            "machine_documentation_url": null,
+            "metadata_modified_at": "2026-10-20T14:30:00.000000+00:00",
+            "metrics": {
+                "views": 120,
+                "followers": 3
+            },
+            "organization": {
+                "class": "Organization",
+                "id": "bbbb3a755d1767f7d335790d",
+                "name": "Ville d'essai",
+                "slug": "ville-essai",
+                "acronym": null,
+                "page": "https://www.data.gouv.fr/organizations/ville-essai/",
+                "uri": "https://www.data.gouv.fr/api/1/organizations/ville-essai/",
+                "logo": null,
+                "badges": []
+            },
+            "owner": null,
+            "permissions": {
+                "delete": false,
+                "edit": false,
+                "read": true
+            },
+            "private": false,
+            "quality": {
+                "score": 0.5
+            },
+            "rate_limiting": null,
+            "rate_limiting_url": null,
+            "self_api_url": "https://www.data.gouv.fr/api/1/dataservices/aaaa0000000000000000a009/",
+            "self_web_url": "https://www.data.gouv.fr/dataservices/essai-a009/",
+            "slug": "essai-a009",
+            "tags": [],
+            "technical_documentation_url": null,
+            "title": "API interne"
+        },
+        {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived_at": null,
+            "authorization_request_url": null,
+            "availability": null,
+            "availability_url": null,
+            "badges": [],
+            "base_api_url": "https://detour.example.org/api",
+            "business_documentation_url": null,
+            "contact_points": [
+                {
+                    "id": "cccc0000000000000000a010",
+                    "name": "Équipe d'essai",
+                    "email": "equipe-a010@example.com",
+                    "role": "contact"
+                }
+            ],
+            "created_at": "2026-03-02T09:15:00.000000+00:00",
+            "datasets": {
+                "rel": "subsection",
+                "href": "https://www.data.gouv.fr/api/1/datasets/?dataservice=aaaa0000000000000000a010",
+                "type": "GET",
+                "total": 1
+            },
+            "deleted_at": null,
+            "description": null,
+            "extras": {
+                "is_franceconnect": false
+            },
+            "featured": false,
+            "format": "REST",
+            "harvest": null,
+            "id": "aaaa0000000000000000a010",
+            "license": null,
+            "machine_documentation_url": null,
+            "metadata_modified_at": "2026-10-20T14:30:00.000000+00:00",
+            "metrics": {
+                "views": 120,
+                "followers": 3
+            },
+            "organization": {
+                "class": "Organization",
+                "id": "bbbb3a755d1767f7d335790d",
+                "name": "Ville d'essai",
+                "slug": "ville-essai",
+                "acronym": null,
+                "page": "https://www.data.gouv.fr/organizations/ville-essai/",
+                "uri": "https://www.data.gouv.fr/api/1/organizations/ville-essai/",
+                "logo": null,
+                "badges": []
+            },
+            "owner": null,
+            "permissions": {
+                "delete": false,
+                "edit": false,
+                "read": true
+            },
+            "private": false,
+            "quality": {
+                "score": 0.5
+            },
+            "rate_limiting": null,
+            "rate_limiting_url": null,
+            "self_api_url": "https://www.data.gouv.fr/api/1/dataservices/aaaa0000000000000000a010/",
+            "self_web_url": "https://www.data.gouv.fr/dataservices/essai-a010/",
+            "slug": "essai-a010",
+            "tags": [],
+            "technical_documentation_url": null,
+            "title": "API détournée"
+        },
+        {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived_at": "2026-09-01T08:00:00.000000+00:00",
+            "authorization_request_url": null,
+            "availability": null,
+            "availability_url": null,
+            "badges": [],
+            "base_api_url": "https://api.example.com/archivee",
+            "business_documentation_url": null,
+            "contact_points": [
+                {
+                    "id": "cccc0000000000000000a011",
+                    "name": "Équipe d'essai",
+                    "email": "equipe-a011@example.com",
+                    "role": "contact"
+                }
+            ],
+            "created_at": "2026-03-02T09:15:00.000000+00:00",
+            "datasets": {
+                "rel": "subsection",
+                "href": "https://www.data.gouv.fr/api/1/datasets/?dataservice=aaaa0000000000000000a011",
+                "type": "GET",
+                "total": 1
+            },
+            "deleted_at": null,
+            "description": null,
+            "extras": {
+                "is_franceconnect": false
+            },
+            "featured": false,
+            "format": "REST",
+            "harvest": null,
+            "id": "aaaa0000000000000000a011",
+            "license": null,
+            "machine_documentation_url": null,
+            "metadata_modified_at": "2026-10-20T14:30:00.000000+00:00",
+            "metrics": {
+                "views": 120,
+                "followers": 3
+            },
+            "organization": {
+                "class": "Organization",
+                "id": "bbbb3a755d1767f7d335790d",
+                "name": "Ville d'essai",
+                "slug": "ville-essai",
+                "acronym": null,
+                "page": "https://www.data.gouv.fr/organizations/ville-essai/",
+                "uri": "https://www.data.gouv.fr/api/1/organizations/ville-essai/",
+                "logo": null,
+                "badges": []
+            },
+            "owner": null,
+            "permissions": {
+                "delete": false,
+                "edit": false,
+                "read": true
+            },
+            "private": false,
+            "quality": {
+                "score": 0.5
+            },
+            "rate_limiting": null,
+            "rate_limiting_url": null,
+            "self_api_url": "https://www.data.gouv.fr/api/1/dataservices/aaaa0000000000000000a011/",
+            "self_web_url": "https://www.data.gouv.fr/dataservices/essai-a011/",
+            "slug": "essai-a011",
+            "tags": [],
+            "technical_documentation_url": null,
+            "title": "API archivée"
+        },
+        {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived_at": null,
+            "authorization_request_url": null,
+            "availability": null,
+            "availability_url": null,
+            "badges": [],
+            "base_api_url": "https://api.example.com/privee",
+            "business_documentation_url": null,
+            "contact_points": [
+                {
+                    "id": "cccc0000000000000000a012",
+                    "name": "Équipe d'essai",
+                    "email": "equipe-a012@example.com",
+                    "role": "contact"
+                }
+            ],
+            "created_at": "2026-03-02T09:15:00.000000+00:00",
+            "datasets": {
+                "rel": "subsection",
+                "href": "https://www.data.gouv.fr/api/1/datasets/?dataservice=aaaa0000000000000000a012",
+                "type": "GET",
+                "total": 1
+            },
+            "deleted_at": null,
+            "description": null,
+            "extras": {
+                "is_franceconnect": false
+            },
+            "featured": false,
+            "format": "REST",
+            "harvest": null,
+            "id": "aaaa0000000000000000a012",
+            "license": null,
+            "machine_documentation_url": null,
+            "metadata_modified_at": "2026-10-20T14:30:00.000000+00:00",
+            "metrics": {
+                "views": 120,
+                "followers": 3
+            },
+            "organization": {
+                "class": "Organization",
+                "id": "bbbb3a755d1767f7d335790d",
+                "name": "Ville d'essai",
+                "slug": "ville-essai",
+                "acronym": null,
+                "page": "https://www.data.gouv.fr/organizations/ville-essai/",
+                "uri": "https://www.data.gouv.fr/api/1/organizations/ville-essai/",
+                "logo": null,
+                "badges": []
+            },
+            "owner": null,
+            "permissions": {
+                "delete": false,
+                "edit": false,
+                "read": true
+            },
+            "private": true,
+            "quality": {
+                "score": 0.5
+            },
+            "rate_limiting": null,
+            "rate_limiting_url": null,
+            "self_api_url": "https://www.data.gouv.fr/api/1/dataservices/aaaa0000000000000000a012/",
+            "self_web_url": "https://www.data.gouv.fr/dataservices/essai-a012/",
+            "slug": "essai-a012",
+            "tags": [],
+            "technical_documentation_url": null,
+            "title": "API privée"
+        },
+        {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived_at": null,
+            "authorization_request_url": null,
+            "availability": null,
+            "availability_url": null,
+            "badges": [],
+            "base_api_url": "https://api.example.com/supprimee",
+            "business_documentation_url": null,
+            "contact_points": [
+                {
+                    "id": "cccc0000000000000000a013",
+                    "name": "Équipe d'essai",
+                    "email": "equipe-a013@example.com",
+                    "role": "contact"
+                }
+            ],
+            "created_at": "2026-03-02T09:15:00.000000+00:00",
+            "datasets": {
+                "rel": "subsection",
+                "href": "https://www.data.gouv.fr/api/1/datasets/?dataservice=aaaa0000000000000000a013",
+                "type": "GET",
+                "total": 1
+            },
+            "deleted_at": "2026-09-02T08:00:00.000000+00:00",
+            "description": null,
+            "extras": {
+                "is_franceconnect": false
+            },
+            "featured": false,
+            "format": "REST",
+            "harvest": null,
+            "id": "aaaa0000000000000000a013",
+            "license": null,
+            "machine_documentation_url": null,
+            "metadata_modified_at": "2026-10-20T14:30:00.000000+00:00",
+            "metrics": {
+                "views": 120,
+                "followers": 3
+            },
+            "organization": {
+                "class": "Organization",
+                "id": "bbbb3a755d1767f7d335790d",
+                "name": "Ville d'essai",
+                "slug": "ville-essai",
+                "acronym": null,
+                "page": "https://www.data.gouv.fr/organizations/ville-essai/",
+                "uri": "https://www.data.gouv.fr/api/1/organizations/ville-essai/",
+                "logo": null,
+                "badges": []
+            },
+            "owner": null,
+            "permissions": {
+                "delete": false,
+                "edit": false,
+                "read": true
+            },
+            "private": false,
+            "quality": {
+                "score": 0.5
+            },
+            "rate_limiting": null,
+            "rate_limiting_url": null,
+            "self_api_url": "https://www.data.gouv.fr/api/1/dataservices/aaaa0000000000000000a013/",
+            "self_web_url": "https://www.data.gouv.fr/dataservices/essai-a013/",
+            "slug": "essai-a013",
+            "tags": [],
+            "technical_documentation_url": null,
+            "title": "API supprimée"
+        },
+        {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived_at": null,
+            "authorization_request_url": null,
+            "availability": null,
+            "availability_url": null,
+            "badges": [],
+            "base_api_url": "https://portail.example.org/api/jeux/arbres",
+            "business_documentation_url": null,
+            "contact_points": [
+                {
+                    "id": "cccc0000000000000000a014",
+                    "name": "Équipe d'essai",
+                    "email": "equipe-a014@example.com",
+                    "role": "contact"
+                }
+            ],
+            "created_at": "2026-03-02T09:15:00.000000+00:00",
+            "datasets": {
+                "rel": "subsection",
+                "href": "https://www.data.gouv.fr/api/1/datasets/?dataservice=aaaa0000000000000000a014",
+                "type": "GET",
+                "total": 1
+            },
+            "deleted_at": null,
+            "description": null,
+            "extras": {
+                "is_franceconnect": false
+            },
+            "featured": false,
+            "format": "REST",
+            "harvest": null,
+            "id": "aaaa0000000000000000a014",
+            "license": null,
+            "machine_documentation_url": "https://portail.example.org/api/openapi.json",
+            "metadata_modified_at": "2026-10-20T14:30:00.000000+00:00",
+            "metrics": {
+                "views": 120,
+                "followers": 3
+            },
+            "organization": {
+                "class": "Organization",
+                "id": "bbbb3a755d1767f7d335790d",
+                "name": "Ville d'essai",
+                "slug": "ville-essai",
+                "acronym": null,
+                "page": "https://www.data.gouv.fr/organizations/ville-essai/",
+                "uri": "https://www.data.gouv.fr/api/1/organizations/ville-essai/",
+                "logo": null,
+                "badges": []
+            },
+            "owner": null,
+            "permissions": {
+                "delete": false,
+                "edit": false,
+                "read": true
+            },
+            "private": false,
+            "quality": {
+                "score": 0.5
+            },
+            "rate_limiting": null,
+            "rate_limiting_url": null,
+            "self_api_url": "https://www.data.gouv.fr/api/1/dataservices/aaaa0000000000000000a014/",
+            "self_web_url": "https://www.data.gouv.fr/dataservices/essai-a014/",
+            "slug": "essai-a014",
+            "tags": [],
+            "technical_documentation_url": null,
+            "title": "Portail d'essai : arbres"
+        },
+        {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived_at": null,
+            "authorization_request_url": null,
+            "availability": null,
+            "availability_url": null,
+            "badges": [],
+            "base_api_url": "https://portail.example.org/api/jeux/ecoles",
+            "business_documentation_url": null,
+            "contact_points": [
+                {
+                    "id": "cccc0000000000000000a015",
+                    "name": "Équipe d'essai",
+                    "email": "equipe-a015@example.com",
+                    "role": "contact"
+                }
+            ],
+            "created_at": "2026-03-02T09:15:00.000000+00:00",
+            "datasets": {
+                "rel": "subsection",
+                "href": "https://www.data.gouv.fr/api/1/datasets/?dataservice=aaaa0000000000000000a015",
+                "type": "GET",
+                "total": 1
+            },
+            "deleted_at": null,
+            "description": null,
+            "extras": {
+                "is_franceconnect": false
+            },
+            "featured": false,
+            "format": "REST",
+            "harvest": null,
+            "id": "aaaa0000000000000000a015",
+            "license": null,
+            "machine_documentation_url": "https://portail.example.org/api/openapi.json",
+            "metadata_modified_at": "2026-10-20T14:30:00.000000+00:00",
+            "metrics": {
+                "views": 120,
+                "followers": 3
+            },
+            "organization": {
+                "class": "Organization",
+                "id": "bbbb3a755d1767f7d335790d",
+                "name": "Ville d'essai",
+                "slug": "ville-essai",
+                "acronym": null,
+                "page": "https://www.data.gouv.fr/organizations/ville-essai/",
+                "uri": "https://www.data.gouv.fr/api/1/organizations/ville-essai/",
+                "logo": null,
+                "badges": []
+            },
+            "owner": null,
+            "permissions": {
+                "delete": false,
+                "edit": false,
+                "read": true
+            },
+            "private": false,
+            "quality": {
+                "score": 0.5
+            },
+            "rate_limiting": null,
+            "rate_limiting_url": null,
+            "self_api_url": "https://www.data.gouv.fr/api/1/dataservices/aaaa0000000000000000a015/",
+            "self_web_url": "https://www.data.gouv.fr/dataservices/essai-a015/",
+            "slug": "essai-a015",
+            "tags": [],
+            "technical_documentation_url": null,
+            "title": "Portail d'essai : écoles"
+        },
+        {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived_at": null,
+            "authorization_request_url": null,
+            "availability": null,
+            "availability_url": null,
+            "badges": [],
+            "base_api_url": "https://api.example.com/adresse-v0",
+            "business_documentation_url": null,
+            "contact_points": [
+                {
+                    "id": "cccc0000000000000000a001",
+                    "name": "Équipe d'essai",
+                    "email": "equipe-a001@example.com",
+                    "role": "contact"
+                }
+            ],
+            "created_at": "2026-03-02T09:15:00.000000+00:00",
+            "datasets": {
+                "rel": "subsection",
+                "href": "https://www.data.gouv.fr/api/1/datasets/?dataservice=aaaa0000000000000000a001",
+                "type": "GET",
+                "total": 1
+            },
+            "deleted_at": null,
+            "description": null,
+            "extras": {
+                "is_franceconnect": false
+            },
+            "featured": false,
+            "format": "REST",
+            "harvest": null,
+            "id": "aaaa0000000000000000a001",
+            "license": null,
+            "machine_documentation_url": null,
+            "metadata_modified_at": "2026-02-01T10:00:00.000000+00:00",
+            "metrics": {
+                "views": 120,
+                "followers": 3
+            },
+            "organization": {
+                "class": "Organization",
+                "id": "bbbb346aec812481a0a3d921",
+                "name": "Institut d'essai géographique",
+                "slug": "institut-essai-geographique",
+                "acronym": null,
+                "page": "https://www.data.gouv.fr/organizations/institut-essai-geographique/",
+                "uri": "https://www.data.gouv.fr/api/1/organizations/institut-essai-geographique/",
+                "logo": null,
+                "badges": []
+            },
+            "owner": null,
+            "permissions": {
+                "delete": false,
+                "edit": false,
+                "read": true
+            },
+            "private": false,
+            "quality": {
+                "score": 0.5
+            },
+            "rate_limiting": null,
+            "rate_limiting_url": null,
+            "self_api_url": "https://www.data.gouv.fr/api/1/dataservices/aaaa0000000000000000a001/",
+            "self_web_url": "https://www.data.gouv.fr/dataservices/essai-a001/",
+            "slug": "essai-a001",
+            "tags": [],
+            "technical_documentation_url": null,
+            "title": "API Adresse d'essai (ancienne fiche)"
+        },
+        {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived_at": null,
+            "authorization_request_url": null,
+            "availability": null,
+            "availability_url": null,
+            "badges": [],
+            "base_api_url": "https://api.example.com/ecarte",
+            "business_documentation_url": null,
+            "contact_points": [
+                {
+                    "id": "cccc0000000000000000a016",
+                    "name": "Équipe d'essai",
+                    "email": "equipe-a016@example.com",
+                    "role": "contact"
+                }
+            ],
+            "created_at": "2026-03-02T09:15:00.000000+00:00",
+            "datasets": {
+                "rel": "subsection",
+                "href": "https://www.data.gouv.fr/api/1/datasets/?dataservice=aaaa0000000000000000a016",
+                "type": "GET",
+                "total": 1
+            },
+            "deleted_at": null,
+            "description": null,
+            "extras": {
+                "is_franceconnect": false
+            },
+            "featured": false,
+            "format": "REST",
+            "harvest": null,
+            "id": "aaaa0000000000000000a016",
+            "license": null,
+            "machine_documentation_url": null,
+            "metadata_modified_at": "2026-10-20T14:30:00.000000+00:00",
+            "metrics": {
+                "views": 120,
+                "followers": 3
+            },
+            "organization": {
+                "class": "Organization",
+                "id": "bbbb3a755d1767f7d335790d",
+                "name": "Ville d'essai",
+                "slug": "ville-essai",
+                "acronym": null,
+                "page": "https://www.data.gouv.fr/organizations/ville-essai/",
+                "uri": "https://www.data.gouv.fr/api/1/organizations/ville-essai/",
+                "logo": null,
+                "badges": []
+            },
+            "owner": null,
+            "permissions": {
+                "delete": false,
+                "edit": false,
+                "read": true
+            },
+            "private": false,
+            "quality": {
+                "score": 0.5
+            },
+            "rate_limiting": null,
+            "rate_limiting_url": null,
+            "self_api_url": "https://www.data.gouv.fr/api/1/dataservices/aaaa0000000000000000a016/",
+            "self_web_url": "https://www.data.gouv.fr/dataservices/essai-a016/",
+            "slug": "essai-a016",
+            "tags": [],
+            "technical_documentation_url": null,
+            "title": "Service motinterdit"
+        },
+        {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived_at": null,
+            "authorization_request_url": null,
+            "availability": null,
+            "availability_url": null,
+            "badges": [],
+            "base_api_url": "https://api.example.com/chiffree",
+            "business_documentation_url": null,
+            "contact_points": [
+                {
+                    "id": "cccc0000000000000000a017",
+                    "name": "Équipe d'essai",
+                    "email": "equipe-a017@example.com",
+                    "role": "contact"
+                }
+            ],
+            "created_at": "2026-03-02T09:15:00.000000+00:00",
+            "datasets": {
+                "rel": "subsection",
+                "href": "https://www.data.gouv.fr/api/1/datasets/?dataservice=aaaa0000000000000000a017",
+                "type": "GET",
+                "total": 1
+            },
+            "deleted_at": null,
+            "description": "Serveur de secours sur 192.0.2.44, port 8080.",
+            "extras": {
+                "is_franceconnect": false
+            },
+            "featured": false,
+            "format": "REST",
+            "harvest": null,
+            "id": "aaaa0000000000000000a017",
+            "license": null,
+            "machine_documentation_url": null,
+            "metadata_modified_at": "2026-10-20T14:30:00.000000+00:00",
+            "metrics": {
+                "views": 120,
+                "followers": 3
+            },
+            "organization": {
+                "class": "Organization",
+                "id": "bbbb3a755d1767f7d335790d",
+                "name": "Ville d'essai",
+                "slug": "ville-essai",
+                "acronym": null,
+                "page": "https://www.data.gouv.fr/organizations/ville-essai/",
+                "uri": "https://www.data.gouv.fr/api/1/organizations/ville-essai/",
+                "logo": null,
+                "badges": []
+            },
+            "owner": null,
+            "permissions": {
+                "delete": false,
+                "edit": false,
+                "read": true
+            },
+            "private": false,
+            "quality": {
+                "score": 0.5
+            },
+            "rate_limiting": null,
+            "rate_limiting_url": null,
+            "self_api_url": "https://www.data.gouv.fr/api/1/dataservices/aaaa0000000000000000a017/",
+            "self_web_url": "https://www.data.gouv.fr/dataservices/essai-a017/",
+            "slug": "essai-a017",
+            "tags": [],
+            "technical_documentation_url": null,
+            "title": "API avec adresse chiffrée"
+        },
+        {
+            "access_audiences": [],
+            "access_type": "mystere",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived_at": null,
+            "authorization_request_url": null,
+            "availability": "élevée",
+            "availability_url": null,
+            "badges": [],
+            "base_api_url": "https://api.example.com/inattendue",
+            "business_documentation_url": null,
+            "contact_points": [
+                {
+                    "id": "cccc0000000000000000a018",
+                    "name": "Équipe d'essai",
+                    "email": "equipe-a018@example.com",
+                    "role": "contact"
+                }
+            ],
+            "created_at": "hier",
+            "datasets": {
+                "rel": "subsection",
+                "href": "https://www.data.gouv.fr/api/1/datasets/?dataservice=aaaa0000000000000000a018",
+                "type": "GET",
+                "total": 1
+            },
+            "deleted_at": null,
+            "description": null,
+            "extras": {
+                "is_franceconnect": false
+            },
+            "featured": false,
+            "format": "REST",
+            "harvest": null,
+            "id": "aaaa0000000000000000a018",
+            "license": {
+                "id": "lov2"
+            },
+            "machine_documentation_url": null,
+            "metadata_modified_at": null,
+            "metrics": {
+                "views": 120,
+                "followers": 3
+            },
+            "organization": {
+                "class": "Organization",
+                "id": "bbbb3a755d1767f7d335790d",
+                "name": "Ville d'essai",
+                "slug": "ville-essai",
+                "acronym": null,
+                "page": "https://www.data.gouv.fr/organizations/ville-essai/",
+                "uri": "https://www.data.gouv.fr/api/1/organizations/ville-essai/",
+                "logo": null,
+                "badges": []
+            },
+            "owner": null,
+            "permissions": {
+                "delete": false,
+                "edit": false,
+                "read": true
+            },
+            "private": false,
+            "quality": {
+                "score": 0.5
+            },
+            "rate_limiting": null,
+            "rate_limiting_url": null,
+            "self_api_url": "https://www.data.gouv.fr/api/1/dataservices/aaaa0000000000000000a018/",
+            "self_web_url": "https://www.data.gouv.fr/dataservices/essai-a018/",
+            "slug": "essai-a018",
+            "tags": "pas-une-liste",
+            "technical_documentation_url": null,
+            "title": "API aux champs inattendus",
+            "champ_nouveau": {
+                "a": 1
+            }
+        }
+    ],
+    "next_page": null,
+    "page": 2,
+    "page_size": 100,
+    "previous_page": "https://www.data.gouv.fr/api/1/dataservices/?page_size=100&page=1",
+    "total": 19
+}

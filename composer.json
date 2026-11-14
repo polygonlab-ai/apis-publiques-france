@@ -1,0 +1,51 @@
+{
+    "name": "polygonlab/apis-publiques-france",
+    "description": "Catalogue des API publiques françaises repris de data.gouv.fr, testé chaque semaine, en JSON et CSV, avec historique.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["api", "public-apis", "open-data", "france", "data-gouv", "donnees-publiques", "awesome-list", "json", "csv", "openapi", "api-monitoring"],
+    "homepage": "https://github.com/polygonlab-ai/apis-publiques-france",
+    "authors": [
+        {
+            "name": "PolygonLab",
+            "email": "contact@polygonlab.ai",
+            "homepage": "https://polygonlab.ai"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/polygonlab-ai/apis-publiques-france/issues",
+        "source": "https://github.com/polygonlab-ai/apis-publiques-france",
+        "security": "https://github.com/polygonlab-ai/apis-publiques-france/security/policy"
+    },
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "friendsofphp/php-cs-fixer": "^3.95",
+        "justinrainbow/json-schema": "^6.4",
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PolygonLab\\ApisPubliquesFrance\\Outils\\": "tools/src/",
+            "PolygonLab\\ApisPubliquesFrance\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "analyse": "phpstan analyse --no-progress",
+        "style": "php-cs-fixer fix --dry-run --diff",
+        "style-corriger": "php-cs-fixer fix",
+        "actualiser": "php tools/actualiser.php"
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

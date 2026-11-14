@@ -1,0 +1,2370 @@
+{
+    "source": "data.gouv.fr, catalogue des API",
+    "page": "https://www.data.gouv.fr/dataservices/",
+    "date_source": "2026-11-14",
+    "nombre": 265,
+    "hotes": [
+        {
+            "hote": "datarmor.cotesdarmor.fr",
+            "nombre_apis": 251,
+            "organisations": [
+                "Département des Côtes d'Armor",
+                "Lannion-Trégor Communauté",
+                "Musée d'art et d'histoire - Ville de Saint-Brieuc",
+                "Saint-Brieuc Armor Agglomération",
+                "Ville de Plaintel",
+                "Ville de PLERIN"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 251
+        },
+        {
+            "hote": "data.grandpoitiers.fr",
+            "nombre_apis": 143,
+            "organisations": [
+                "Grand Poitiers Open Data"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 143
+        },
+        {
+            "hote": "data.ademe.fr",
+            "nombre_apis": 112,
+            "organisations": [
+                "ADEME"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 112
+        },
+        {
+            "hote": "opendata.enedis.fr",
+            "nombre_apis": 100,
+            "organisations": [],
+            "resultat": "repond",
+            "nombre_qui_repondent": 100
+        },
+        {
+            "hote": "opendata.edf.fr",
+            "nombre_apis": 54,
+            "organisations": [
+                "Electricité de France"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 53
+        },
+        {
+            "hote": "data.bretagne-environnement.fr",
+            "nombre_apis": 35,
+            "organisations": [
+                "Observatoire de l'environnement en Bretagne"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 35
+        },
+        {
+            "hote": "opendata.sqy.fr",
+            "nombre_apis": 35,
+            "organisations": [
+                "SAINT-QUENTIN-EN-YVELINES"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 35
+        },
+        {
+            "hote": "entreprise.api.gouv.fr",
+            "nombre_apis": 34,
+            "organisations": [
+                "Direction interministérielle du numérique"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 34
+        },
+        {
+            "hote": "datacarto.opendata-ligair.fr",
+            "nombre_apis": 31,
+            "organisations": [
+                "Lig'Air"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 31
+        },
+        {
+            "hote": "particulier.api.gouv.fr",
+            "nombre_apis": 22,
+            "organisations": [
+                "Direction interministérielle du numérique",
+                "France Travail",
+                "Ministère de l'Enseignement supérieur, de la Recherche et de l'Espace"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 22
+        },
+        {
+            "hote": "portail-api.meteofrance.fr",
+            "nombre_apis": 20,
+            "organisations": [
+                "Météo-France"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 20
+        },
+        {
+            "hote": "opendata.agenceore.fr",
+            "nombre_apis": 19,
+            "organisations": [
+                "Agence ORE"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 19
+        },
+        {
+            "hote": "hubeau.eaufrance.fr",
+            "nombre_apis": 13,
+            "organisations": [
+                "Hub’eau"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "data.geopf.fr",
+            "nombre_apis": 12,
+            "organisations": [
+                "Institut national de l'information géographique et forestière"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 3
+        },
+        {
+            "hote": "data.laposte.fr",
+            "nombre_apis": 12,
+            "organisations": [
+                "La Poste"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 12
+        },
+        {
+            "hote": "opendata.agglo-saintes.fr",
+            "nombre_apis": 12,
+            "organisations": [
+                "Saintes Grandes Rives, l'Agglo"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 12
+        },
+        {
+            "hote": "francetravail.io",
+            "nombre_apis": 11,
+            "organisations": [
+                "France Travail"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 11
+        },
+        {
+            "hote": "api.insee.fr",
+            "nombre_apis": 9,
+            "organisations": [
+                "Institut national de la statistique et des études économiques (Insee)"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "apicarto.ign.fr",
+            "nombre_apis": 7,
+            "organisations": [
+                "Institut national de l'information géographique et forestière"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "georisques.gouv.fr",
+            "nombre_apis": 7,
+            "organisations": [
+                "Bureau de Recherches Géologiques et Minières"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 6
+        },
+        {
+            "hote": "mapsref.brgm.fr",
+            "nombre_apis": 5,
+            "organisations": [
+                "Bureau de Recherches Géologiques et Minières"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 5
+        },
+        {
+            "hote": "data.education.gouv.fr",
+            "nombre_apis": 4,
+            "organisations": [
+                "Ministères de l'Éducation nationale"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 4
+        },
+        {
+            "hote": "opendata.plus.transformation.gouv.fr",
+            "nombre_apis": 4,
+            "organisations": [
+                "Direction Interministérielle de la Transformation Publique"
+            ],
+            "resultat": "injoignable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "theses.fr",
+            "nombre_apis": 4,
+            "organisations": [
+                "Agence bibliographique de l'enseignement supérieur"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 4
+        },
+        {
+            "hote": "api.trainnomade.fr",
+            "nombre_apis": 3,
+            "organisations": [
+                "Train Nomade"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "api.urssaf.fr",
+            "nombre_apis": 3,
+            "organisations": [
+                "Unions de Recouvrement des cotisations de Sécurité Sociale et d'Allocations Familiales"
+            ],
+            "resultat": "acces_refuse",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "gallica.bnf.fr",
+            "nombre_apis": 3,
+            "organisations": [
+                "Bibliothèque nationale de France"
+            ],
+            "resultat": "acces_refuse",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "sandbox-api.piste.gouv.fr",
+            "nombre_apis": 3,
+            "organisations": [
+                "Agence pour l'Informatique Financière de l'Etat",
+                "Cour de cassation",
+                "Premier ministre"
+            ],
+            "resultat": "erreur_client",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "api-lannuaire.service-public.gouv.fr",
+            "nombre_apis": 2,
+            "organisations": [
+                "Premier ministre"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 2
+        },
+        {
+            "hote": "api.aife.finances.rie.gouv.fr",
+            "nombre_apis": 2,
+            "organisations": [
+                "Centre Interministériel de Services Informatiques relatifs aux Ressources Humaines (CISIRH)"
+            ],
+            "resultat": "injoignable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "api.bdnb.io",
+            "nombre_apis": 2,
+            "organisations": [
+                "Centre Scientifique et Technique du Batiment"
+            ],
+            "resultat": "acces_refuse",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "api.gbfs.ecovelo.mobi",
+            "nombre_apis": 2,
+            "organisations": [
+                "Transports Publics du Choletais",
+                "Zébullo"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 2
+        },
+        {
+            "hote": "chouette.enroute.mobi",
+            "nombre_apis": 2,
+            "organisations": [
+                "TADAO"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 2
+        },
+        {
+            "hote": "data-spm.fr",
+            "nombre_apis": 2,
+            "organisations": [
+                "Archipel Développement"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 2
+        },
+        {
+            "hote": "data.centrevaldeloire.fr",
+            "nombre_apis": 2,
+            "organisations": [
+                "CHARTRES METROPOLE",
+                "Région Centre-Val de Loire"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.corsica",
+            "nombre_apis": 2,
+            "organisations": [
+                "Collectivité de Corse"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.economie.gouv.fr",
+            "nombre_apis": 2,
+            "organisations": [
+                "Ministères économiques et financiers"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 2
+        },
+        {
+            "hote": "data.loire-atlantique.fr",
+            "nombre_apis": 2,
+            "organisations": [
+                "Département de Loire-Atlantique"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 2
+        },
+        {
+            "hote": "dialog.beta.gouv.fr",
+            "nombre_apis": 2,
+            "organisations": [
+                "DiaLog"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 2
+        },
+        {
+            "hote": "h34.hanoverdisplays.com",
+            "nombre_apis": 2,
+            "organisations": [
+                "Réseau beeMob - Transports en commun de l'Agglomération Béziers Méditerranée"
+            ],
+            "resultat": "injoignable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "journal-officiel-datadila.opendatasoft.com",
+            "nombre_apis": 2,
+            "organisations": [
+                "Premier ministre"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 2
+        },
+        {
+            "hote": "open.urssaf.fr",
+            "nombre_apis": 2,
+            "organisations": [
+                "Unions de Recouvrement des cotisations de Sécurité Sociale et d'Allocations Familiales"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 2
+        },
+        {
+            "hote": "partenaires.api.ameli.fr",
+            "nombre_apis": 2,
+            "organisations": [
+                "Caisse nationale de l'Assurance Maladie"
+            ],
+            "resultat": "acces_refuse",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "plateforme-bal.adresse.data.gouv.fr",
+            "nombre_apis": 2,
+            "organisations": [
+                "adresse.data.gouv.fr"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "services.data.shom.fr",
+            "nombre_apis": 2,
+            "organisations": [
+                "Shom"
+            ],
+            "resultat": "acces_refuse",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "services.sandre.eaufrance.fr",
+            "nombre_apis": 2,
+            "organisations": [
+                "Système d'Information sur l'Eau"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 2
+        },
+        {
+            "hote": "twisto-caen.opendatasoft.com",
+            "nombre_apis": 2,
+            "organisations": [
+                "Twisto"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 2
+        },
+        {
+            "hote": "www.verisav.fr",
+            "nombre_apis": 2,
+            "organisations": [
+                "Verisav"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "aide.rdv-service-public.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Direction interministérielle du numérique"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "aides-territoires.beta.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministère de la Transition écologique"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "alim.agriculture.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministère de l'Agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+            ],
+            "resultat": "acces_refuse",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "anglet-opendatapaysbasque.opendatasoft.com",
+            "nombre_apis": 1,
+            "organisations": [
+                "Commune d'Anglet"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "api-equides.org",
+            "nombre_apis": 1,
+            "organisations": [
+                "COLLECTIF PIXEL"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "api-fonds-vert.datahub.din.developpement-durable.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministère de la Transition écologique"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "api-geodae.sante.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministère des Solidarités et de la Santé"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "api-maree.fr",
+            "nombre_apis": 1,
+            "organisations": [],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "api-portail.bdnb.io",
+            "nombre_apis": 1,
+            "organisations": [
+                "Centre Scientifique et Technique du Batiment"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "api-rva.sig.rennesmetropole.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Rennes Métropole"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "api-sudocuh.datahub.din.developpement-durable.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministère de la Transition écologique"
+            ],
+            "resultat": "erreur_serveur",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "api.aife.economie.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Agence pour l'Informatique Financière de l'Etat"
+            ],
+            "resultat": "injoignable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "api.api-engagement.beta.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministères de l'Éducation nationale"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "api.apprentissage.beta.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Direction interministérielle du numérique"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "api.camino.beta.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministère de la Transition écologique"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "api.clair.vote",
+            "nombre_apis": 1,
+            "organisations": [
+                "Citoyen Libre, Analyse, Information, République"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "api.croustillant.menu",
+            "nombre_apis": 1,
+            "organisations": [],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "api.data.inclusion.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Plateforme de l'inclusion"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "api.dataparl.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "DataParl'"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "api.datasubvention.beta.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Direction interministérielle du numérique"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "api.eutyn.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Eutyn"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "api.fr.openfisca.org",
+            "nombre_apis": 1,
+            "organisations": [
+                "Agence nationale de la cohésion des territoires"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "api.gbfs.v3.ecovelo.mobi",
+            "nombre_apis": 1,
+            "organisations": [
+                "Transport du Grand Longwy"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "api.idelis.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Pau Béarn Pyrénées Mobilités"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "api.indicateurs.ecologie.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ecolab"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "api.insourcia.io",
+            "nombre_apis": 1,
+            "organisations": [
+                "Insourcia"
+            ],
+            "resultat": "acces_refuse",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "api.mobilic.beta.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministère de la Transition écologique"
+            ],
+            "resultat": "erreur_client",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "api.mobilit.app",
+            "nombre_apis": 1,
+            "organisations": [],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "api.nocrates.com",
+            "nombre_apis": 1,
+            "organisations": [
+                "Nocratès"
+            ],
+            "resultat": "injoignable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "api.opendata.onisep.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Office national d'information sur les enseignements et les professions"
+            ],
+            "resultat": "acces_refuse",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "api.orphacode.org",
+            "nombre_apis": 1,
+            "organisations": [
+                "Institut national de la santé et de la recherche médicale (Inserm)"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "api.pasdevelib.app",
+            "nombre_apis": 1,
+            "organisations": [
+                "PasDeVélib"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "api.renater.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministère de l'Enseignement supérieur, de la Recherche et de l'Espace"
+            ],
+            "resultat": "injoignable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "api.sandre.eaufrance.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Système d'Information sur l'Eau"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "api.skiradar.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Hestia Data"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "api.soliguide.fr",
+            "nombre_apis": 1,
+            "organisations": [],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "api.territoiresfertiles.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Les Greniers d'Abondance"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "api.trackdechets.beta.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministère de la Transition écologique"
+            ],
+            "resultat": "erreur_client",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "api.vigieau.beta.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministère de la Transition écologique"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "app.pysae.com",
+            "nombre_apis": 1,
+            "organisations": [
+                "Communauté de Communes Chinon Vienne et Loire"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "app.sowprog.com",
+            "nombre_apis": 1,
+            "organisations": [
+                "SOWPROG"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "app.urbs.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Urban Retrofit Business Services"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "arras-siri.navocap.com",
+            "nombre_apis": 1,
+            "organisations": [
+                "Communauté Urbaine d'Arras"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "artificial.careers",
+            "nombre_apis": 1,
+            "organisations": [],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "associations.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministère chargé des Sports"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "aucadastre.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Aucadastre"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "auregistre.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Auregistre"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "bathing-water-gst.alwaysdata.net",
+            "nombre_apis": 1,
+            "organisations": [],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "boamp-datadila.opendatasoft.com",
+            "nombre_apis": 1,
+            "organisations": [
+                "Premier ministre"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "bodacc-datadila.opendatasoft.com",
+            "nombre_apis": 1,
+            "organisations": [
+                "Premier ministre"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "boulognebillancourt-seineouest.opendatasoft.com",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ville de Boulogne-Billancourt"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "bpce.opendatasoft.com",
+            "nombre_apis": 1,
+            "organisations": [
+                "Groupe BPCE"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "cadastre.data.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "data.gouv.fr"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "calendrier.api.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Direction interministérielle du numérique"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "candhis.cerema.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Cerema"
+            ],
+            "resultat": "acces_refuse",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "catalogue-apprentissage.intercariforef.org",
+            "nombre_apis": 1,
+            "organisations": [
+                "Réseau des Carif-Oref"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "catalogue.data.anrdi.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "ASSOCIATION NATIONALE DE REGULATION DES DOMAINES ET DE L'INTERNET"
+            ],
+            "resultat": "injoignable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "catalogue.opendata-ligair.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Lig'Air"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "catalogue.sigloire.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "DREAL Pays de la Loire"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "chaville-seineouest.opendatasoft.com",
+            "nombre_apis": 1,
+            "organisations": [
+                "Commune de Chaville"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "climascore.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "ClimaScore"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "comparateurinternet.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Comparateur Internet"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "connect.visamundi.io",
+            "nombre_apis": 1,
+            "organisations": [
+                "Visamundi"
+            ],
+            "resultat": "acces_refuse",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "cvec-ctrl.etudiant.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Centre National des Œuvres Universitaires et Scolaires"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data-cines-indes.koumoul.com",
+            "nombre_apis": 1,
+            "organisations": [
+                "Syndicat des Cinémas d'Art, de Répertoire et d'Essai"
+            ],
+            "resultat": "injoignable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "data-essentiel.atih.sante.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Agence Technique de l'information sur l'Hospitalisation (ATIH)"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.agglo-carene.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Saint-Nazaire agglo - La CARENE"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.agglo-montargoise.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Agglomération Montargoise Et rives du loing"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.ameli.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Caisse nationale de l'Assurance Maladie"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.ampmetropole.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Métropole d'Aix-Marseille-Provence"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.angers.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Angers Loire Métropole"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.bnf.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Bibliothèque nationale de France"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.bourgesplus.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Communauté d'Agglomération de Bourges"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "data.bretagne.bzh",
+            "nombre_apis": 1,
+            "organisations": [
+                "Région Bretagne"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.caf.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Caisse Nationale des Allocations familiales"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.cannes.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Mairie de Cannes"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.capatlantique.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "CapAtlantique La Baule-Guérande Agglo"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.cc-autourdechenonceaux.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "CC Autour de Chenonceaux Bléré - Val de Cher"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.chateauroux-metropole.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "CHATEAUROUX METROPOLE"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.dares.travail-emploi.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Dares - statistiques Travail"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.drees.solidarites-sante.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministère des Solidarités et de la Santé"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.enseignementsup-recherche.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministère de l'Enseignement supérieur, de la Recherche et de l'Espace"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.eurelien.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Conseil départemental d'Eure-et-Loir"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.evrycourcouronnes.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ville d'Evry-Courcouronnes"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.explore.star.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "STAR"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.fleurysurorne.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Fleury-sur-Orne"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.gers.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Département du Gers"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.grandparissud.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Grand Paris Sud"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.haute-garonne.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.idelis.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Pau Béarn Pyrénées Mobilités"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.iledefrance-mobilites.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Île-de-France Mobilités"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.iledefrance.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Région Île-de-France"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.issy.com",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ville d'Issy-les-Moulineaux"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.lamayenne.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Le Conseil Départemental de la Mayenne"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.laregion.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Région Occitanie / Pyrénées Méditerranée"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.maine-et-loire.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Département de Maine-et-Loire"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.metropole-dijon.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Dijon métropole"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "data.metropole-rouen-normandie.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Métropole Rouen Normandie"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.meudon.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ville de Meudon"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.mulhouse-alsace.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Mulhouse Alsace Agglomération"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.nantesmetropole.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ville de Nantes"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.normandie.education.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Rectorat de Normandie"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.ofgl.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Observatoire des Finances et de la Gestion publique Locales"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.orleans-metropole.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Orléans Métropole"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.paris2024.org",
+            "nombre_apis": 1,
+            "organisations": [
+                "Paris 2024"
+            ],
+            "resultat": "injoignable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "data.paysdelaloire.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Région des Pays de la Loire"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.ratp.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Régie autonome des transports parisiens (RATP)"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.regionreunion.com",
+            "nombre_apis": 1,
+            "organisations": [
+                "Région Réunion"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.rennesmetropole.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Rennes Métropole en accès libre"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.saintnazaireagglo.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Saint-Nazaire agglo - La CARENE"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.sarthe.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Conseil départemental de la Sarthe"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.seineouest.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ville de Marnes-la-Coquette"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.seinesaintdenis.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Seine-Saint-Denis - Le Département"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.sicoval.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Sicoval - Communauté d'agglomération du Sud-Est toulousain"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.strasbourg.eu",
+            "nombre_apis": 1,
+            "organisations": [
+                "Eurométropole de Strasbourg"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.teo-paysdelaloire.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "TEO, observatoire de la transition écologique des Pays de la Loire"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.toulouse-metropole.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Toulouse métropole"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.tours-metropole.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Tours Métropole Val de Loire"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.unedic.org",
+            "nombre_apis": 1,
+            "organisations": [
+                "Unédic"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "data.villedavray.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Commune de Ville-d'Avray"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "datahub.bordeaux-metropole.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Bordeaux Métropole"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "datapass.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Direction interministérielle du numérique"
+            ],
+            "resultat": "injoignable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "datavaccin-covid.ameli.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Caisse nationale de l'Assurance Maladie"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "depot.dpae-edi.urssaf.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Unions de Recouvrement des cotisations de Sécurité Sociale et d'Allocations Familiales"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "doc.demarche.numerique.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Direction interministérielle du numérique"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "doc.demarches-simplifiees.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Direction interministérielle du numérique"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "eclaire-api.sante.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Agence du Numérique en Santé"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "ecobalyse.beta.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ecobalyse"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "edifiable.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Edifiable"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "emplois.inclusion.beta.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Plateforme de l'inclusion"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "ensagri-pprd.api.agriculture.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministère de l'Agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+            ],
+            "resultat": "erreur_serveur",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "enseignement-agricole.opendatasoft.com",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministère de l'Agriculture, de l'agro-alimentaire et de la souveraineté alimentaire"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "equipements.sports.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministère chargé des Sports"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "france-chaleur-urbaine.beta.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "France Chaleur Urbaine"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "france-evasion-regions.com",
+            "nombre_apis": 1,
+            "organisations": [],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "gels-avoirs.dgtresor.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministères économiques et financiers"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "geo.api.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Direction interministérielle du numérique"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "geolittoral-data.cerema.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Cerema"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "giveradar.com",
+            "nombre_apis": 1,
+            "organisations": [],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "gpseo.opendatasoft.com",
+            "nombre_apis": 1,
+            "organisations": [
+                "Epône"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "impactco2.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "ADEME"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "jourtempo.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Jour Tempo"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "lemarche.inclusion.beta.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Plateforme de l'inclusion"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "lesbancs.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Les bancs"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "localisation.flotteoceanographique.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Institut français de recherche pour l'exploitation de la mer (IFREMER)"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "ma-cantine.agriculture.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Direction interministérielle du numérique"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "mana.bzh",
+            "nombre_apis": 1,
+            "organisations": [
+                "Alliance MANA"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "masecurite-api.interieur.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministère de l'intérieur"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "medicaments-api.giygas.dev",
+            "nombre_apis": 1,
+            "organisations": [],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "mimeche.fr",
+            "nombre_apis": 1,
+            "organisations": [],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "mitoyens.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Mitoyens"
+            ],
+            "resultat": "erreur_client",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "myspots.io",
+            "nombre_apis": 1,
+            "organisations": [],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "natinfo.app",
+            "nombre_apis": 1,
+            "organisations": [],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "odre.opendatasoft.com",
+            "nombre_apis": 1,
+            "organisations": [
+                "Open Data Réseaux Énergies"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "oidc.franceconnect.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Direction interministérielle du numérique"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "opendata-corse-outremer.edf.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "EDF Systèmes Energétiques Insulaires"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "opendata.afd.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Agence Française de Développement (AFD)"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "opendata.agencebio.org",
+            "nombre_apis": 1,
+            "organisations": [
+                "Agence Bio"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "opendata.aude.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Département de l'Aude"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "opendata.caissedesdepots.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Caisse des Dépôts"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "opendata.cc-coeurdefrance.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Communauté de Communes Coeur de France"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "opendata.clermontmetropole.eu",
+            "nombre_apis": 1,
+            "organisations": [
+                "Clermont Auvergne Métropole"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "opendata.datainfogreffe.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Infogreffe"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "opendata.doubs.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Département du Doubs"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "opendata.grdf.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "GRDF"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "opendata.ha-py.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Département des Hautes-Pyrénées"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "opendata.hauts-de-seine.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ville de Rueil-Malmaison"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "opendata.isere.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Conseil départemental de l'Isère"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "opendata.koumoul.com",
+            "nombre_apis": 1,
+            "organisations": [
+                "Koumoul"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "opendata.paris.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ville de Paris"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "opendata.saemes.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Saemes"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "opendata.siri.transports-lia.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Réseau de transport en commun Le Havre Seine Métropole LiA"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "pillr.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Pillr"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "plateforme.adresse.data.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Institut national de l'information géographique et forestière"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "poligraph.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Association Sankofa"
+            ],
+            "resultat": "erreur_client",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "portail-api.montpellier.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Montpellier Méditerranée Métropole"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "portailapi.urssaf.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Unions de Recouvrement des cotisations de Sécurité Sociale et d'Allocations Familiales"
+            ],
+            "resultat": "injoignable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "porto-vecchio.opendatasoft.com",
+            "nombre_apis": 1,
+            "organisations": [
+                "Cità di Portivechju"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "presaje.sga.defense.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministère des Armées"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "prices.openfoodfacts.org",
+            "nombre_apis": 1,
+            "organisations": [
+                "Open Food Facts"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "proconnect.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Direction interministérielle du numérique"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "public-api.meteofrance.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Météo-France"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "recherche-entreprises.api.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Direction interministérielle du numérique"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "reseau-mirabel.info",
+            "nombre_apis": 1,
+            "organisations": [
+                "Sciences Po"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "resistance-haute-savoie.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Résistance Haute-Savoie"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "ressources.data.sncf.com",
+            "nombre_apis": 1,
+            "organisations": [
+                "SNCF"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "rnb-api.beta.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Référentiel National des Bâtiments"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "saint-louis-agglo.opendatasoft.com",
+            "nombre_apis": 1,
+            "organisations": [
+                "Saint-Louis Agglomération"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "sevres-seineouest.opendatasoft.com",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ville de Sèvres"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "si-amiante.sante.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministère des Solidarités et de la Santé"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "smt.esante.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Agence du Numérique en Santé"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "tabular-api.data.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "data.gouv.fr"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "temoinpublic.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Témoin public"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "transport.data.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministère de la Transition écologique"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "vanves-seineouest.opendatasoft.com",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ville de Vanves"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "wallet.esw.esante.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Agence du Numérique en Santé"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "webservice-transparence.sante.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ministère des Solidarités et de la Santé"
+            ],
+            "resultat": "acces_refuse",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "webstat.banque-france.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Banque de France : Webstat"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "www.calendrier-tempo.fr",
+            "nombre_apis": 1,
+            "organisations": [],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "www.civix.fr",
+            "nombre_apis": 1,
+            "organisations": [],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "www.data.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Direction interministérielle du numérique"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "www.data.grandchambord.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Communauté de communes du Grand Chambord"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "www.diplome.app",
+            "nombre_apis": 1,
+            "organisations": [
+                "Diplome"
+            ],
+            "resultat": "erreur_client",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "www.geocatalogue.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Cerema"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "www.geodair.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Laboratoire Central de Surveillance de la Qualité de l'Air"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "www.herault-data.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Département de l'Hérault"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "www.horizonapp.link",
+            "nombre_apis": 1,
+            "organisations": [
+                "Horizon"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "www.idref.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Agence bibliographique de l'enseignement supérieur"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "www.info-financiere.gouv.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Premier ministre"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "www.insee.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Sailly-Lez-Lannoy"
+            ],
+            "resultat": "erreur_serveur",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "www.myfrenchtool.com",
+            "nombre_apis": 1,
+            "organisations": [],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "www.opendata56.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Ville de Lorient"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "www.quivad.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "QuiVad"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "www.scrapimmo.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Scrapimmo"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "www.sudoc.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Agence bibliographique de l'enseignement supérieur"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "zabal-agriculture.opendata-paysbasque.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Plateforme Open Data ZABAL"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "zelhliylrlktnasircwp.supabase.co",
+            "nombre_apis": 1,
+            "organisations": [],
+            "resultat": "acces_refuse",
+            "nombre_qui_repondent": 0
+        }
+    ]
+}

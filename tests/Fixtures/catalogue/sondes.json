@@ -1,0 +1,118 @@
+{
+    "resolutions": {
+        "disparue.example.org": [],
+        "interne.example.net": [
+            "fd00::10"
+        ]
+    },
+    "reponses": {
+        "https://api.example.com/adresse": {
+            "code": 200,
+            "redirection": null,
+            "corps": "{\"service\": \"adresse\"}",
+            "erreur": null
+        },
+        "https://api.example.com/adresse/openapi.json": {
+            "code": 200,
+            "redirection": null,
+            "corps": "{\"openapi\": \"3.0.3\", \"info\": {\"title\": \"API Adresse d'essai\", \"version\": \"1.0.0\"}, \"paths\": {}}",
+            "erreur": null
+        },
+        "https://api.example.com/entreprises": {
+            "code": 401,
+            "redirection": null,
+            "corps": "{\"message\": \"Jeton attendu\"}",
+            "erreur": null
+        },
+        "https://api.example.com/entreprises/openapi.yaml": {
+            "code": 200,
+            "redirection": null,
+            "corps": "openapi: 3.1.0\ninfo:\n  title: API Entreprises d'essai\n  version: 2.0.0\npaths: {}\n",
+            "erreur": null
+        },
+        "https://annuaire.example.org/api": {
+            "code": 404,
+            "redirection": null,
+            "corps": "Not Found",
+            "erreur": null
+        },
+        "http://ancien.example.net/v1": {
+            "code": 301,
+            "redirection": "https://ancien.example.net/v1",
+            "corps": "",
+            "erreur": null
+        },
+        "https://ancien.example.net/v1": {
+            "code": 200,
+            "redirection": null,
+            "corps": "ok",
+            "erreur": null
+        },
+        "https://panne.example.net/api": {
+            "code": 503,
+            "redirection": null,
+            "corps": "Service Unavailable",
+            "erreur": null
+        },
+        "https://panne.example.net/doc": {
+            "code": 200,
+            "redirection": null,
+            "corps": "<!DOCTYPE html><html><head><title>Documentation</title></head><body>swagger: ui</body></html>",
+            "erreur": null
+        },
+        "https://api.example.com/limitee": {
+            "code": 429,
+            "redirection": null,
+            "corps": "Too Many Requests",
+            "erreur": null
+        },
+        "https://api.example.com/limitee/introuvable.json": {
+            "code": 404,
+            "redirection": null,
+            "corps": "Not Found",
+            "erreur": null
+        },
+        "https://detour.example.org/api": {
+            "code": 302,
+            "redirection": "http://localhost/admin",
+            "corps": "",
+            "erreur": null
+        },
+        "https://portail.example.org/api/jeux/arbres": {
+            "code": 200,
+            "redirection": null,
+            "corps": "{\"total_count\": 12}",
+            "erreur": null
+        },
+        "https://portail.example.org/api/jeux/ecoles": {
+            "code": 200,
+            "redirection": null,
+            "corps": "{\"total_count\": 3}",
+            "erreur": null
+        },
+        "https://portail.example.org/api/openapi.json": {
+            "code": 200,
+            "redirection": null,
+            "corps": "{\"info\": {\"title\": \"Portail d'essai\"}, \"swagger\": \"2.0\", \"paths\": {}}",
+            "erreur": null
+        },
+        "https://api.example.com/ecarte": {
+            "code": 200,
+            "redirection": null,
+            "corps": "ok",
+            "erreur": null
+        },
+        "https://api.example.com/chiffree": {
+            "code": 200,
+            "redirection": null,
+            "corps": "ok",
+            "erreur": null
+        },
+        "https://api.example.com/inattendue": {
+            "code": 403,
+            "redirection": null,
+            "corps": "Forbidden",
+            "erreur": null
+        }
+    }
+}

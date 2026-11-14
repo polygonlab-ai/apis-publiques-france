@@ -1,0 +1,266 @@
+﻿hote;nombre_apis;organisations;resultat;nombre_qui_repondent
+datarmor.cotesdarmor.fr;251;Département des Côtes d'Armor | Lannion-Trégor Communauté | Musée d'art et d'histoire - Ville de Saint-Brieuc | Saint-Brieuc Armor Agglomération | Ville de Plaintel | Ville de PLERIN;repond;251
+data.grandpoitiers.fr;143;Grand Poitiers Open Data;repond;143
+data.ademe.fr;112;ADEME;repond;112
+opendata.enedis.fr;100;;repond;100
+opendata.edf.fr;54;Electricité de France;repond;53
+data.bretagne-environnement.fr;35;Observatoire de l'environnement en Bretagne;repond;35
+opendata.sqy.fr;35;SAINT-QUENTIN-EN-YVELINES;repond;35
+entreprise.api.gouv.fr;34;Direction interministérielle du numérique;repond;34
+datacarto.opendata-ligair.fr;31;Lig'Air;repond;31
+particulier.api.gouv.fr;22;Direction interministérielle du numérique | France Travail | Ministère de l'Enseignement supérieur, de la Recherche et de l'Espace;repond;22
+portail-api.meteofrance.fr;20;Météo-France;repond;20
+opendata.agenceore.fr;19;Agence ORE;repond;19
+hubeau.eaufrance.fr;13;Hub’eau;introuvable;0
+data.geopf.fr;12;Institut national de l'information géographique et forestière;repond;3
+data.laposte.fr;12;La Poste;repond;12
+opendata.agglo-saintes.fr;12;Saintes Grandes Rives, l'Agglo;repond;12
+francetravail.io;11;France Travail;repond;11
+api.insee.fr;9;Institut national de la statistique et des études économiques (Insee);repond;1
+apicarto.ign.fr;7;Institut national de l'information géographique et forestière;introuvable;0
+georisques.gouv.fr;7;Bureau de Recherches Géologiques et Minières;repond;6
+mapsref.brgm.fr;5;Bureau de Recherches Géologiques et Minières;repond;5
+data.education.gouv.fr;4;Ministères de l'Éducation nationale;repond;4
+opendata.plus.transformation.gouv.fr;4;Direction Interministérielle de la Transformation Publique;injoignable;0
+theses.fr;4;Agence bibliographique de l'enseignement supérieur;repond;4
+api.trainnomade.fr;3;Train Nomade;introuvable;0
+api.urssaf.fr;3;Unions de Recouvrement des cotisations de Sécurité Sociale et d'Allocations Familiales;acces_refuse;0
+gallica.bnf.fr;3;Bibliothèque nationale de France;acces_refuse;0
+sandbox-api.piste.gouv.fr;3;Agence pour l'Informatique Financière de l'Etat | Cour de cassation | Premier ministre;erreur_client;0
+api-lannuaire.service-public.gouv.fr;2;Premier ministre;repond;2
+api.aife.finances.rie.gouv.fr;2;Centre Interministériel de Services Informatiques relatifs aux Ressources Humaines (CISIRH);injoignable;0
+api.bdnb.io;2;Centre Scientifique et Technique du Batiment;acces_refuse;0
+api.gbfs.ecovelo.mobi;2;Transports Publics du Choletais | Zébullo;repond;2
+chouette.enroute.mobi;2;TADAO;repond;2
+data-spm.fr;2;Archipel Développement;repond;2
+data.centrevaldeloire.fr;2;CHARTRES METROPOLE | Région Centre-Val de Loire;repond;1
+data.corsica;2;Collectivité de Corse;repond;1
+data.economie.gouv.fr;2;Ministères économiques et financiers;repond;2
+data.loire-atlantique.fr;2;Département de Loire-Atlantique;repond;2
+dialog.beta.gouv.fr;2;DiaLog;repond;2
+h34.hanoverdisplays.com;2;Réseau beeMob - Transports en commun de l'Agglomération Béziers Méditerranée;injoignable;0
+journal-officiel-datadila.opendatasoft.com;2;Premier ministre;repond;2
+open.urssaf.fr;2;Unions de Recouvrement des cotisations de Sécurité Sociale et d'Allocations Familiales;repond;2
+partenaires.api.ameli.fr;2;Caisse nationale de l'Assurance Maladie;acces_refuse;0
+plateforme-bal.adresse.data.gouv.fr;2;adresse.data.gouv.fr;introuvable;0
+services.data.shom.fr;2;Shom;acces_refuse;0
+services.sandre.eaufrance.fr;2;Système d'Information sur l'Eau;repond;2
+twisto-caen.opendatasoft.com;2;Twisto;repond;2
+www.verisav.fr;2;Verisav;repond;1
+aide.rdv-service-public.fr;1;Direction interministérielle du numérique;repond;1
+aides-territoires.beta.gouv.fr;1;Ministère de la Transition écologique;repond;1
+alim.agriculture.gouv.fr;1;Ministère de l'Agriculture, de l'agro-alimentaire et de la souveraineté alimentaire;acces_refuse;0
+anglet-opendatapaysbasque.opendatasoft.com;1;Commune d'Anglet;repond;1
+api-equides.org;1;COLLECTIF PIXEL;repond;1
+api-fonds-vert.datahub.din.developpement-durable.gouv.fr;1;Ministère de la Transition écologique;introuvable;0
+api-geodae.sante.gouv.fr;1;Ministère des Solidarités et de la Santé;repond;1
+api-maree.fr;1;;repond;1
+api-portail.bdnb.io;1;Centre Scientifique et Technique du Batiment;repond;1
+api-rva.sig.rennesmetropole.fr;1;Rennes Métropole;repond;1
+api-sudocuh.datahub.din.developpement-durable.gouv.fr;1;Ministère de la Transition écologique;erreur_serveur;0
+api.aife.economie.gouv.fr;1;Agence pour l'Informatique Financière de l'Etat;injoignable;0
+api.api-engagement.beta.gouv.fr;1;Ministères de l'Éducation nationale;repond;1
+api.apprentissage.beta.gouv.fr;1;Direction interministérielle du numérique;repond;1
+api.camino.beta.gouv.fr;1;Ministère de la Transition écologique;introuvable;0
+api.clair.vote;1;Citoyen Libre, Analyse, Information, République;introuvable;0
+api.croustillant.menu;1;;repond;1
+api.data.inclusion.gouv.fr;1;Plateforme de l'inclusion;introuvable;0
+api.dataparl.fr;1;DataParl';repond;1
+api.datasubvention.beta.gouv.fr;1;Direction interministérielle du numérique;repond;1
+api.eutyn.fr;1;Eutyn;repond;1
+api.fr.openfisca.org;1;Agence nationale de la cohésion des territoires;repond;1
+api.gbfs.v3.ecovelo.mobi;1;Transport du Grand Longwy;repond;1
+api.idelis.fr;1;Pau Béarn Pyrénées Mobilités;repond;1
+api.indicateurs.ecologie.gouv.fr;1;Ecolab;repond;1
+api.insourcia.io;1;Insourcia;acces_refuse;0
+api.mobilic.beta.gouv.fr;1;Ministère de la Transition écologique;erreur_client;0
+api.mobilit.app;1;;repond;1
+api.nocrates.com;1;Nocratès;injoignable;0
+api.opendata.onisep.fr;1;Office national d'information sur les enseignements et les professions;acces_refuse;0
+api.orphacode.org;1;Institut national de la santé et de la recherche médicale (Inserm);repond;1
+api.pasdevelib.app;1;PasDeVélib;repond;1
+api.renater.fr;1;Ministère de l'Enseignement supérieur, de la Recherche et de l'Espace;injoignable;0
+api.sandre.eaufrance.fr;1;Système d'Information sur l'Eau;repond;1
+api.skiradar.fr;1;Hestia Data;repond;1
+api.soliguide.fr;1;;repond;1
+api.territoiresfertiles.fr;1;Les Greniers d'Abondance;introuvable;0
+api.trackdechets.beta.gouv.fr;1;Ministère de la Transition écologique;erreur_client;0
+api.vigieau.beta.gouv.fr;1;Ministère de la Transition écologique;introuvable;0
+app.pysae.com;1;Communauté de Communes Chinon Vienne et Loire;repond;1
+app.sowprog.com;1;SOWPROG;introuvable;0
+app.urbs.fr;1;Urban Retrofit Business Services;repond;1
+arras-siri.navocap.com;1;Communauté Urbaine d'Arras;repond;1
+artificial.careers;1;;repond;1
+associations.gouv.fr;1;Ministère chargé des Sports;repond;1
+aucadastre.fr;1;Aucadastre;repond;1
+auregistre.fr;1;Auregistre;repond;1
+bathing-water-gst.alwaysdata.net;1;;repond;1
+boamp-datadila.opendatasoft.com;1;Premier ministre;repond;1
+bodacc-datadila.opendatasoft.com;1;Premier ministre;repond;1
+boulognebillancourt-seineouest.opendatasoft.com;1;Ville de Boulogne-Billancourt;repond;1
+bpce.opendatasoft.com;1;Groupe BPCE;repond;1
+cadastre.data.gouv.fr;1;data.gouv.fr;introuvable;0
+calendrier.api.gouv.fr;1;Direction interministérielle du numérique;repond;1
+candhis.cerema.fr;1;Cerema;acces_refuse;0
+catalogue-apprentissage.intercariforef.org;1;Réseau des Carif-Oref;repond;1
+catalogue.data.anrdi.fr;1;ASSOCIATION NATIONALE DE REGULATION DES DOMAINES ET DE L'INTERNET;injoignable;0
+catalogue.opendata-ligair.fr;1;Lig'Air;introuvable;0
+catalogue.sigloire.fr;1;DREAL Pays de la Loire;repond;1
+chaville-seineouest.opendatasoft.com;1;Commune de Chaville;repond;1
+climascore.fr;1;ClimaScore;introuvable;0
+comparateurinternet.fr;1;Comparateur Internet;repond;1
+connect.visamundi.io;1;Visamundi;acces_refuse;0
+cvec-ctrl.etudiant.gouv.fr;1;Centre National des Œuvres Universitaires et Scolaires;repond;1
+data-cines-indes.koumoul.com;1;Syndicat des Cinémas d'Art, de Répertoire et d'Essai;injoignable;0
+data-essentiel.atih.sante.fr;1;Agence Technique de l'information sur l'Hospitalisation (ATIH);repond;1
+data.agglo-carene.fr;1;Saint-Nazaire agglo - La CARENE;repond;1
+data.agglo-montargoise.fr;1;Agglomération Montargoise Et rives du loing;repond;1
+data.ameli.fr;1;Caisse nationale de l'Assurance Maladie;repond;1
+data.ampmetropole.fr;1;Métropole d'Aix-Marseille-Provence;repond;1
+data.angers.fr;1;Angers Loire Métropole;repond;1
+data.bnf.fr;1;Bibliothèque nationale de France;repond;1
+data.bourgesplus.fr;1;Communauté d'Agglomération de Bourges;introuvable;0
+data.bretagne.bzh;1;Région Bretagne;repond;1
+data.caf.fr;1;Caisse Nationale des Allocations familiales;repond;1
+data.cannes.fr;1;Mairie de Cannes;repond;1
+data.capatlantique.fr;1;CapAtlantique La Baule-Guérande Agglo;repond;1
+data.cc-autourdechenonceaux.fr;1;CC Autour de Chenonceaux Bléré - Val de Cher;repond;1
+data.chateauroux-metropole.fr;1;CHATEAUROUX METROPOLE;repond;1
+data.dares.travail-emploi.gouv.fr;1;Dares - statistiques Travail;repond;1
+data.drees.solidarites-sante.gouv.fr;1;Ministère des Solidarités et de la Santé;repond;1
+data.enseignementsup-recherche.gouv.fr;1;Ministère de l'Enseignement supérieur, de la Recherche et de l'Espace;repond;1
+data.eurelien.fr;1;Conseil départemental d'Eure-et-Loir;repond;1
+data.evrycourcouronnes.fr;1;Ville d'Evry-Courcouronnes;repond;1
+data.explore.star.fr;1;STAR;repond;1
+data.fleurysurorne.fr;1;Fleury-sur-Orne;repond;1
+data.gers.fr;1;Département du Gers;repond;1
+data.grandparissud.fr;1;Grand Paris Sud;repond;1
+data.haute-garonne.fr;1;Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data;repond;1
+data.idelis.fr;1;Pau Béarn Pyrénées Mobilités;repond;1
+data.iledefrance-mobilites.fr;1;Île-de-France Mobilités;repond;1
+data.iledefrance.fr;1;Région Île-de-France;repond;1
+data.issy.com;1;Ville d'Issy-les-Moulineaux;repond;1
+data.lamayenne.fr;1;Le Conseil Départemental de la Mayenne;repond;1
+data.laregion.fr;1;Région Occitanie / Pyrénées Méditerranée;repond;1
+data.maine-et-loire.fr;1;Département de Maine-et-Loire;repond;1
+data.metropole-dijon.fr;1;Dijon métropole;introuvable;0
+data.metropole-rouen-normandie.fr;1;Métropole Rouen Normandie;repond;1
+data.meudon.fr;1;Ville de Meudon;repond;1
+data.mulhouse-alsace.fr;1;Mulhouse Alsace Agglomération;repond;1
+data.nantesmetropole.fr;1;Ville de Nantes;repond;1
+data.normandie.education.gouv.fr;1;Rectorat de Normandie;repond;1
+data.ofgl.fr;1;Observatoire des Finances et de la Gestion publique Locales;repond;1
+data.orleans-metropole.fr;1;Orléans Métropole;repond;1
+data.paris2024.org;1;Paris 2024;injoignable;0
+data.paysdelaloire.fr;1;Région des Pays de la Loire;repond;1
+data.ratp.fr;1;Régie autonome des transports parisiens (RATP);repond;1
+data.regionreunion.com;1;Région Réunion;repond;1
+data.rennesmetropole.fr;1;Rennes Métropole en accès libre;repond;1
+data.saintnazaireagglo.fr;1;Saint-Nazaire agglo - La CARENE;repond;1
+data.sarthe.fr;1;Conseil départemental de la Sarthe;repond;1
+data.seineouest.fr;1;Ville de Marnes-la-Coquette;repond;1
+data.seinesaintdenis.fr;1;Seine-Saint-Denis - Le Département;repond;1
+data.sicoval.fr;1;Sicoval - Communauté d'agglomération du Sud-Est toulousain;repond;1
+data.strasbourg.eu;1;Eurométropole de Strasbourg;repond;1
+data.teo-paysdelaloire.fr;1;TEO, observatoire de la transition écologique des Pays de la Loire;repond;1
+data.toulouse-metropole.fr;1;Toulouse métropole;repond;1
+data.tours-metropole.fr;1;Tours Métropole Val de Loire;repond;1
+data.unedic.org;1;Unédic;repond;1
+data.villedavray.fr;1;Commune de Ville-d'Avray;repond;1
+datahub.bordeaux-metropole.fr;1;Bordeaux Métropole;repond;1
+datapass.gouv.fr;1;Direction interministérielle du numérique;injoignable;0
+datavaccin-covid.ameli.fr;1;Caisse nationale de l'Assurance Maladie;repond;1
+depot.dpae-edi.urssaf.fr;1;Unions de Recouvrement des cotisations de Sécurité Sociale et d'Allocations Familiales;repond;1
+doc.demarche.numerique.gouv.fr;1;Direction interministérielle du numérique;repond;1
+doc.demarches-simplifiees.fr;1;Direction interministérielle du numérique;repond;1
+eclaire-api.sante.gouv.fr;1;Agence du Numérique en Santé;repond;1
+ecobalyse.beta.gouv.fr;1;Ecobalyse;repond;1
+edifiable.fr;1;Edifiable;repond;1
+emplois.inclusion.beta.gouv.fr;1;Plateforme de l'inclusion;repond;1
+ensagri-pprd.api.agriculture.gouv.fr;1;Ministère de l'Agriculture, de l'agro-alimentaire et de la souveraineté alimentaire;erreur_serveur;0
+enseignement-agricole.opendatasoft.com;1;Ministère de l'Agriculture, de l'agro-alimentaire et de la souveraineté alimentaire;repond;1
+equipements.sports.gouv.fr;1;Ministère chargé des Sports;repond;1
+france-chaleur-urbaine.beta.gouv.fr;1;France Chaleur Urbaine;introuvable;0
+france-evasion-regions.com;1;;repond;1
+gels-avoirs.dgtresor.gouv.fr;1;Ministères économiques et financiers;introuvable;0
+geo.api.gouv.fr;1;Direction interministérielle du numérique;repond;1
+geolittoral-data.cerema.fr;1;Cerema;repond;1
+giveradar.com;1;;repond;1
+gpseo.opendatasoft.com;1;Epône;repond;1
+impactco2.fr;1;ADEME;introuvable;0
+jourtempo.fr;1;Jour Tempo;repond;1
+lemarche.inclusion.beta.gouv.fr;1;Plateforme de l'inclusion;repond;1
+lesbancs.fr;1;Les bancs;repond;1
+localisation.flotteoceanographique.fr;1;Institut français de recherche pour l'exploitation de la mer (IFREMER);repond;1
+ma-cantine.agriculture.gouv.fr;1;Direction interministérielle du numérique;repond;1
+mana.bzh;1;Alliance MANA;repond;1
+masecurite-api.interieur.gouv.fr;1;Ministère de l'intérieur;introuvable;0
+medicaments-api.giygas.dev;1;;repond;1
+mimeche.fr;1;;repond;1
+mitoyens.fr;1;Mitoyens;erreur_client;0
+myspots.io;1;;introuvable;0
+natinfo.app;1;;repond;1
+odre.opendatasoft.com;1;Open Data Réseaux Énergies;repond;1
+oidc.franceconnect.gouv.fr;1;Direction interministérielle du numérique;repond;1
+opendata-corse-outremer.edf.fr;1;EDF Systèmes Energétiques Insulaires;repond;1
+opendata.afd.fr;1;Agence Française de Développement (AFD);repond;1
+opendata.agencebio.org;1;Agence Bio;introuvable;0
+opendata.aude.fr;1;Département de l'Aude;repond;1
+opendata.caissedesdepots.fr;1;Caisse des Dépôts;repond;1
+opendata.cc-coeurdefrance.fr;1;Communauté de Communes Coeur de France;repond;1
+opendata.clermontmetropole.eu;1;Clermont Auvergne Métropole;repond;1
+opendata.datainfogreffe.fr;1;Infogreffe;repond;1
+opendata.doubs.fr;1;Département du Doubs;repond;1
+opendata.grdf.fr;1;GRDF;repond;1
+opendata.ha-py.fr;1;Département des Hautes-Pyrénées;repond;1
+opendata.hauts-de-seine.fr;1;Ville de Rueil-Malmaison;repond;1
+opendata.isere.fr;1;Conseil départemental de l'Isère;repond;1
+opendata.koumoul.com;1;Koumoul;repond;1
+opendata.paris.fr;1;Ville de Paris;repond;1
+opendata.saemes.fr;1;Saemes;repond;1
+opendata.siri.transports-lia.fr;1;Réseau de transport en commun Le Havre Seine Métropole LiA;repond;1
+pillr.fr;1;Pillr;introuvable;0
+plateforme.adresse.data.gouv.fr;1;Institut national de l'information géographique et forestière;introuvable;0
+poligraph.fr;1;Association Sankofa;erreur_client;0
+portail-api.montpellier.fr;1;Montpellier Méditerranée Métropole;repond;1
+portailapi.urssaf.fr;1;Unions de Recouvrement des cotisations de Sécurité Sociale et d'Allocations Familiales;injoignable;0
+porto-vecchio.opendatasoft.com;1;Cità di Portivechju;introuvable;0
+presaje.sga.defense.gouv.fr;1;Ministère des Armées;introuvable;0
+prices.openfoodfacts.org;1;Open Food Facts;repond;1
+proconnect.gouv.fr;1;Direction interministérielle du numérique;repond;1
+public-api.meteofrance.fr;1;Météo-France;introuvable;0
+recherche-entreprises.api.gouv.fr;1;Direction interministérielle du numérique;repond;1
+reseau-mirabel.info;1;Sciences Po;repond;1
+resistance-haute-savoie.fr;1;Résistance Haute-Savoie;repond;1
+ressources.data.sncf.com;1;SNCF;repond;1
+rnb-api.beta.gouv.fr;1;Référentiel National des Bâtiments;repond;1
+saint-louis-agglo.opendatasoft.com;1;Saint-Louis Agglomération;repond;1
+sevres-seineouest.opendatasoft.com;1;Ville de Sèvres;repond;1
+si-amiante.sante.gouv.fr;1;Ministère des Solidarités et de la Santé;repond;1
+smt.esante.gouv.fr;1;Agence du Numérique en Santé;repond;1
+tabular-api.data.gouv.fr;1;data.gouv.fr;introuvable;0
+temoinpublic.fr;1;Témoin public;repond;1
+transport.data.gouv.fr;1;Ministère de la Transition écologique;repond;1
+vanves-seineouest.opendatasoft.com;1;Ville de Vanves;repond;1
+wallet.esw.esante.gouv.fr;1;Agence du Numérique en Santé;repond;1
+webservice-transparence.sante.gouv.fr;1;Ministère des Solidarités et de la Santé;acces_refuse;0
+webstat.banque-france.fr;1;Banque de France : Webstat;repond;1
+www.calendrier-tempo.fr;1;;introuvable;0
+www.civix.fr;1;;repond;1
+www.data.gouv.fr;1;Direction interministérielle du numérique;repond;1
+www.data.grandchambord.fr;1;Communauté de communes du Grand Chambord;introuvable;0
+www.diplome.app;1;Diplome;erreur_client;0
+www.geocatalogue.fr;1;Cerema;repond;1
+www.geodair.fr;1;Laboratoire Central de Surveillance de la Qualité de l'Air;introuvable;0
+www.herault-data.fr;1;Département de l'Hérault;repond;1
+www.horizonapp.link;1;Horizon;repond;1
+www.idref.fr;1;Agence bibliographique de l'enseignement supérieur;repond;1
+www.info-financiere.gouv.fr;1;Premier ministre;repond;1
+www.insee.fr;1;Sailly-Lez-Lannoy;erreur_serveur;0
+www.myfrenchtool.com;1;;repond;1
+www.opendata56.fr;1;Ville de Lorient;repond;1
+www.quivad.fr;1;QuiVad;repond;1
+www.scrapimmo.fr;1;Scrapimmo;repond;1
+www.sudoc.fr;1;Agence bibliographique de l'enseignement supérieur;repond;1
+zabal-agriculture.opendata-paysbasque.fr;1;Plateforme Open Data ZABAL;repond;1
+zelhliylrlktnasircwp.supabase.co;1;;acces_refuse;0

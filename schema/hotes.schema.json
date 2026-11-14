@@ -1,0 +1,98 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/polygonlab-ai/apis-publiques-france/main/schema/hotes.schema.json",
+    "title": "Hôtes des API publiques françaises",
+    "description": "Lecture du catalogue par hôte, telle que publiée dans data/hotes.json.",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "source",
+        "page",
+        "date_source",
+        "nombre",
+        "hotes"
+    ],
+    "properties": {
+        "source": {
+            "description": "Producteur des données.",
+            "type": "string",
+            "minLength": 1
+        },
+        "page": {
+            "description": "Page du catalogue des API de data.gouv.fr.",
+            "type": "string",
+            "pattern": "^https://"
+        },
+        "date_source": {
+            "description": "Date du passage (AAAA-MM-JJ, heure de Paris). Null tant qu'aucun passage n'a été fait.",
+            "type": [
+                "string",
+                "null"
+            ],
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "nombre": {
+            "description": "Nombre d'hôtes.",
+            "type": "integer",
+            "minimum": 0
+        },
+        "hotes": {
+            "description": "Hôtes, du plus chargé au moins chargé, puis par nom.",
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/hote"
+            }
+        }
+    },
+    "definitions": {
+        "hote": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "hote",
+                "nombre_apis",
+                "organisations",
+                "resultat",
+                "nombre_qui_repondent"
+            ],
+            "properties": {
+                "hote": {
+                    "description": "Nom de l'hôte, en minuscules.",
+                    "type": "string",
+                    "minLength": 1
+                },
+                "nombre_apis": {
+                    "description": "Nombre d'API dont l'adresse est sur cet hôte.",
+                    "type": "integer",
+                    "minimum": 1
+                },
+                "organisations": {
+                    "description": "Organisations qui publient ces API, triées.",
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                        "type": "string",
+                        "minLength": 1
+                    }
+                },
+                "resultat": {
+                    "description": "Le plus favorable des résultats de test des API de l'hôte.",
+                    "enum": [
+                        "repond",
+                        "acces_refuse",
+                        "introuvable",
+                        "erreur_client",
+                        "erreur_serveur",
+                        "injoignable",
+                        "non_teste"
+                    ]
+                },
+                "nombre_qui_repondent": {
+                    "description": "Nombre d'API de l'hôte dont le résultat est « repond ».",
+                    "type": "integer",
+                    "minimum": 0
+                }
+            }
+        }
+    }
+}

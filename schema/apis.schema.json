@@ -1,0 +1,374 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/polygonlab-ai/apis-publiques-france/main/schema/apis.schema.json",
+    "title": "API publiques françaises",
+    "description": "Catalogue des API de data.gouv.fr et résultat du test hebdomadaire de chaque adresse, tel que publié dans data/apis.json.",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "source",
+        "page",
+        "date_source",
+        "nombre",
+        "nombres",
+        "nombre_hotes",
+        "apis"
+    ],
+    "properties": {
+        "source": {
+            "description": "Producteur des données.",
+            "type": "string",
+            "minLength": 1
+        },
+        "page": {
+            "description": "Page du catalogue des API de data.gouv.fr.",
+            "type": "string",
+            "pattern": "^https://"
+        },
+        "date_source": {
+            "description": "Date du passage (AAAA-MM-JJ, heure de Paris). Null tant qu'aucun passage n'a été fait.",
+            "type": [
+                "string",
+                "null"
+            ],
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "nombre": {
+            "description": "Nombre total d'API.",
+            "type": "integer",
+            "minimum": 0
+        },
+        "nombres": {
+            "description": "Nombre d'API par type d'accès et par résultat de test.",
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "acces",
+                "test"
+            ],
+            "properties": {
+                "acces": {
+                    "description": "Par type d'accès ; « non_precise » compte les API dont le type d'accès est null.",
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                        "ouvert",
+                        "ouvert_avec_compte",
+                        "restreint",
+                        "non_precise"
+                    ],
+                    "properties": {
+                        "ouvert": {
+                            "$ref": "#/definitions/compte"
+                        },
+                        "ouvert_avec_compte": {
+                            "$ref": "#/definitions/compte"
+                        },
+                        "restreint": {
+                            "$ref": "#/definitions/compte"
+                        },
+                        "non_precise": {
+                            "$ref": "#/definitions/compte"
+                        }
+                    }
+                },
+                "test": {
+                    "description": "Par résultat de test.",
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                        "repond",
+                        "acces_refuse",
+                        "introuvable",
+                        "erreur_client",
+                        "erreur_serveur",
+                        "injoignable",
+                        "non_teste"
+                    ],
+                    "properties": {
+                        "repond": {
+                            "$ref": "#/definitions/compte"
+                        },
+                        "acces_refuse": {
+                            "$ref": "#/definitions/compte"
+                        },
+                        "introuvable": {
+                            "$ref": "#/definitions/compte"
+                        },
+                        "erreur_client": {
+                            "$ref": "#/definitions/compte"
+                        },
+                        "erreur_serveur": {
+                            "$ref": "#/definitions/compte"
+                        },
+                        "injoignable": {
+                            "$ref": "#/definitions/compte"
+                        },
+                        "non_teste": {
+                            "$ref": "#/definitions/compte"
+                        }
+                    }
+                }
+            }
+        },
+        "nombre_hotes": {
+            "description": "Nombre d'hôtes distincts parmi les adresses.",
+            "type": "integer",
+            "minimum": 0
+        },
+        "apis": {
+            "description": "API, triées par titre puis par identifiant.",
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/api"
+            }
+        }
+    },
+    "definitions": {
+        "compte": {
+            "type": "integer",
+            "minimum": 0
+        },
+        "api": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "id",
+                "titre",
+                "description",
+                "organisation",
+                "acces",
+                "adresse",
+                "hote",
+                "format",
+                "licence",
+                "documentation",
+                "documentation_machine",
+                "documentation_machine_test",
+                "demande_acces",
+                "disponibilite_declaree",
+                "disponibilite_observee",
+                "limites",
+                "mots_cles",
+                "page",
+                "cree_le",
+                "modifie_le",
+                "test"
+            ],
+            "properties": {
+                "id": {
+                    "description": "Identifiant de l'API dans le catalogue, unique et stable.",
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                },
+                "titre": {
+                    "description": "Titre donné par le producteur.",
+                    "type": "string",
+                    "minLength": 1
+                },
+                "description": {
+                    "description": "Description en texte brut, 300 caractères au plus.",
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "minLength": 1,
+                    "maxLength": 300
+                },
+                "organisation": {
+                    "description": "Nom de l'organisation qui publie l'API.",
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "minLength": 1
+                },
+                "acces": {
+                    "description": "Type d'accès. Null si le catalogue ne le dit pas.",
+                    "enum": [
+                        "ouvert",
+                        "ouvert_avec_compte",
+                        "restreint",
+                        null
+                    ]
+                },
+                "adresse": {
+                    "description": "Adresse de base de l'API.",
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "minLength": 1
+                },
+                "hote": {
+                    "description": "Hôte de l'adresse, en minuscules.",
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "minLength": 1
+                },
+                "format": {
+                    "description": "Format déclaré, par exemple REST.",
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "minLength": 1
+                },
+                "licence": {
+                    "description": "Licence déclarée par le producteur.",
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "minLength": 1
+                },
+                "documentation": {
+                    "description": "Adresse de la documentation technique.",
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "minLength": 1
+                },
+                "documentation_machine": {
+                    "description": "Adresse de la documentation lisible par une machine.",
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "minLength": 1
+                },
+                "documentation_machine_test": {
+                    "description": "Lecture de la documentation lisible par une machine : description OpenAPI reconnue, autre contenu, lecture impossible, ou adresse absente du catalogue.",
+                    "enum": [
+                        "openapi",
+                        "autre",
+                        "injoignable",
+                        "absente"
+                    ]
+                },
+                "demande_acces": {
+                    "description": "Adresse où demander l'accès.",
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "minLength": 1
+                },
+                "disponibilite_declaree": {
+                    "description": "Disponibilité déclarée par le producteur, en pourcentage.",
+                    "type": [
+                        "number",
+                        "null"
+                    ]
+                },
+                "disponibilite_observee": {
+                    "description": "Part des derniers passages enregistrés où l'adresse a répondu (repond ou acces_refuse), de 0 à 1. Null tant que l'adresse n'a pas été testée à trois passages.",
+                    "type": [
+                        "number",
+                        "null"
+                    ],
+                    "minimum": 0,
+                    "maximum": 1
+                },
+                "limites": {
+                    "description": "Limites d'usage déclarées, 200 caractères au plus.",
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "minLength": 1,
+                    "maxLength": 200
+                },
+                "mots_cles": {
+                    "description": "Mots-clés du catalogue, triés.",
+                    "type": "array",
+                    "uniqueItems": true,
+                    "items": {
+                        "type": "string",
+                        "minLength": 1
+                    }
+                },
+                "page": {
+                    "description": "Page de l'API sur data.gouv.fr.",
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "minLength": 1
+                },
+                "cree_le": {
+                    "description": "Création de la fiche (AAAA-MM-JJ, heure de Paris).",
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+                },
+                "modifie_le": {
+                    "description": "Dernière modification de la fiche (AAAA-MM-JJ, heure de Paris).",
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+                },
+                "test": {
+                    "$ref": "#/definitions/test"
+                }
+            }
+        },
+        "test": {
+            "description": "Résultat du test de l'adresse.",
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "resultat",
+                "code_http",
+                "https",
+                "teste_le"
+            ],
+            "properties": {
+                "resultat": {
+                    "description": "Classe de la réponse : sans erreur (2xx, 3xx), accès refusé (401, 403), introuvable (404, 410), autre refus (4xx), erreur du serveur (5xx), aucune réponse, ou adresse non testée.",
+                    "enum": [
+                        "repond",
+                        "acces_refuse",
+                        "introuvable",
+                        "erreur_client",
+                        "erreur_serveur",
+                        "injoignable",
+                        "non_teste"
+                    ]
+                },
+                "code_http": {
+                    "description": "Code HTTP de la dernière réponse reçue. Null si aucune réponse n'est arrivée ou si l'adresse n'a pas été testée.",
+                    "type": [
+                        "integer",
+                        "null"
+                    ],
+                    "minimum": 100,
+                    "maximum": 999
+                },
+                "https": {
+                    "description": "Vrai si l'adresse est en https, faux si elle est en http. Null sans adresse http ou https.",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                },
+                "teste_le": {
+                    "description": "Date du passage (AAAA-MM-JJ, heure de Paris). Null si l'adresse n'a pas été testée.",
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+                }
+            }
+        }
+    }
+}

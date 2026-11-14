@@ -1,0 +1,21 @@
+{
+    "source": "data.gouv.fr, catalogue des API",
+    "page": "https://www.data.gouv.fr/dataservices/",
+    "lu_le": "2026-11-14T21:13:15+01:00",
+    "date_source": "2026-11-14",
+    "fichiers": [
+        {
+            "cle": "catalogue",
+            "url": "https://www.data.gouv.fr/api/1/dataservices/",
+            "sha256": "867dd84a05889de6d390cf57f2f36d93fa4769cb58a654583b80de14189af7d7",
+            "taille": 1838553,
+            "pages": 13,
+            "entrees_lues": 1260,
+            "entrees_ecartees": 0,
+            "apis_lues": 1260,
+            "adresses_testees": 2234,
+            "requetes": 2270,
+            "duree_test_s": 546
+        }
+    ]
+}

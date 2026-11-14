@@ -1,0 +1,604 @@
+{
+    "data": [
+        {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived_at": null,
+            "authorization_request_url": null,
+            "availability": 99.9,
+            "availability_url": null,
+            "badges": [],
+            "base_api_url": "https://api.example.com/adresse",
+            "business_documentation_url": null,
+            "contact_points": [
+                {
+                    "id": "cccc0000000000000000a001",
+                    "name": "Équipe d'essai",
+                    "email": "equipe-a001@example.com",
+                    "role": "contact"
+                }
+            ],
+            "created_at": "2026-01-15T23:30:00.000000+00:00",
+            "datasets": {
+                "rel": "subsection",
+                "href": "https://www.data.gouv.fr/api/1/datasets/?dataservice=aaaa0000000000000000a001",
+                "type": "GET",
+                "total": 1
+            },
+            "deleted_at": null,
+            "description": "## Présentation\n\nRecherche d'**adresses** en France : [guide](https://docs.example.com/adresse/guide).\n\n- géocodage\n- géocodage inverse",
+            "extras": {
+                "is_franceconnect": false
+            },
+            "featured": false,
+            "format": "REST",
+            "harvest": null,
+            "id": "aaaa0000000000000000a001",
+            "license": "lov2",
+            "machine_documentation_url": "https://api.example.com/adresse/openapi.json",
+            "metadata_modified_at": "2026-10-20T14:30:00.000000+00:00",
+            "metrics": {
+                "views": 120,
+                "followers": 3
+            },
+            "organization": {
+                "class": "Organization",
+                "id": "bbbb346aec812481a0a3d921",
+                "name": "Institut d'essai géographique",
+                "slug": "institut-essai-geographique",
+                "acronym": null,
+                "page": "https://www.data.gouv.fr/organizations/institut-essai-geographique/",
+                "uri": "https://www.data.gouv.fr/api/1/organizations/institut-essai-geographique/",
+                "logo": null,
+                "badges": []
+            },
+            "owner": null,
+            "permissions": {
+                "delete": false,
+                "edit": false,
+                "read": true
+            },
+            "private": false,
+            "quality": {
+                "score": 0.5
+            },
+            "rate_limiting": "50 appels par seconde et par adresse.",
+            "rate_limiting_url": null,
+            "self_api_url": "https://www.data.gouv.fr/api/1/dataservices/aaaa0000000000000000a001/",
+            "self_web_url": "https://www.data.gouv.fr/dataservices/essai-a001/",
+            "slug": "essai-a001",
+            "tags": [
+                "geocodage",
+                "adresse",
+                "adresse"
+            ],
+            "technical_documentation_url": "https://docs.example.com/adresse",
+            "title": "API Adresse d'essai"
+        },
+        {
+            "access_audiences": [],
+            "access_type": "restricted",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived_at": null,
+            "authorization_request_url": "https://demandes.example.org/acces",
+            "availability": 100,
+            "availability_url": null,
+            "badges": [],
+            "base_api_url": "https://api.example.com/entreprises",
+            "business_documentation_url": null,
+            "contact_points": [
+                {
+                    "id": "cccc0000000000000000a002",
+                    "name": "Équipe d'essai",
+                    "email": "equipe-a002@example.com",
+                    "role": "contact"
+                }
+            ],
+            "created_at": "2026-03-02T09:15:00.000000+00:00",
+            "datasets": {
+                "rel": "subsection",
+                "href": "https://www.data.gouv.fr/api/1/datasets/?dataservice=aaaa0000000000000000a002",
+                "type": "GET",
+                "total": 1
+            },
+            "deleted_at": null,
+            "description": "Répertoire des entreprises, accès sur habilitation.",
+            "extras": {
+                "is_franceconnect": false
+            },
+            "featured": false,
+            "format": "REST",
+            "harvest": null,
+            "id": "aaaa0000000000000000a002",
+            "license": null,
+            "machine_documentation_url": "https://api.example.com/entreprises/openapi.yaml",
+            "metadata_modified_at": "2026-10-20T14:30:00.000000+00:00",
+            "metrics": {
+                "views": 120,
+                "followers": 3
+            },
+            "organization": {
+                "class": "Organization",
+                "id": "bbbbbfbc9d4ac05b8b68a32f",
+                "name": "Institut d'essai des statistiques",
+                "slug": "institut-essai-statistiques",
+                "acronym": null,
+                "page": "https://www.data.gouv.fr/organizations/institut-essai-statistiques/",
+                "uri": "https://www.data.gouv.fr/api/1/organizations/institut-essai-statistiques/",
+                "logo": null,
+                "badges": []
+            },
+            "owner": null,
+            "permissions": {
+                "delete": false,
+                "edit": false,
+                "read": true
+            },
+            "private": false,
+            "quality": {
+                "score": 0.5
+            },
+            "rate_limiting": null,
+            "rate_limiting_url": null,
+            "self_api_url": "https://www.data.gouv.fr/api/1/dataservices/aaaa0000000000000000a002/",
+            "self_web_url": "https://www.data.gouv.fr/dataservices/essai-a002/",
+            "slug": "essai-a002",
+            "tags": [
+                "entreprises",
+                "siren"
+            ],
+            "technical_documentation_url": null,
+            "title": "API Entreprises d'essai"
+        },
+        {
+            "access_audiences": [],
+            "access_type": "open_with_account",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived_at": null,
+            "authorization_request_url": "mailto:acces@example.com",
+            "availability": null,
+            "availability_url": null,
+            "badges": [],
+            "base_api_url": "https://annuaire.example.org/api",
+            "business_documentation_url": null,
+            "contact_points": [
+                {
+                    "id": "cccc0000000000000000a003",
+                    "name": "Équipe d'essai",
+                    "email": "equipe-a003@example.com",
+                    "role": "contact"
+                }
+            ],
+            "created_at": "2026-03-02T09:15:00.000000+00:00",
+            "datasets": {
+                "rel": "subsection",
+                "href": "https://www.data.gouv.fr/api/1/datasets/?dataservice=aaaa0000000000000000a003",
+                "type": "GET",
+                "total": 1
+            },
+            "deleted_at": null,
+            "description": "Annuaire des services. Écrire à contact@example.com pour obtenir une clé.",
+            "extras": {
+                "is_franceconnect": false
+            },
+            "featured": false,
+            "format": "REST",
+            "harvest": null,
+            "id": "aaaa0000000000000000a003",
+            "license": null,
+            "machine_documentation_url": null,
+            "metadata_modified_at": "2026-10-20T14:30:00.000000+00:00",
+            "metrics": {
+                "views": 120,
+                "followers": 3
+            },
+            "organization": null,
+            "owner": {
+                "class": "User",
+                "id": "dddd00000000000000000001",
+                "first_name": "Camille",
+                "last_name": "Exemple",
+                "slug": "camille-exemple"
+            },
+            "permissions": {
+                "delete": false,
+                "edit": false,
+                "read": true
+            },
+            "private": false,
+            "quality": {
+                "score": 0.5
+            },
+            "rate_limiting": "Sur demande à limites@example.com.",
+            "rate_limiting_url": null,
+            "self_api_url": "https://www.data.gouv.fr/api/1/dataservices/aaaa0000000000000000a003/",
+            "self_web_url": "https://www.data.gouv.fr/dataservices/essai-a003/",
+            "slug": "essai-a003",
+            "tags": [],
+            "technical_documentation_url": null,
+            "title": "Annuaire d'essai"
+        },
+        {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived_at": null,
+            "authorization_request_url": null,
+            "availability": null,
+            "availability_url": null,
+            "badges": [],
+            "base_api_url": null,
+            "business_documentation_url": null,
+            "contact_points": [
+                {
+                    "id": "cccc0000000000000000a004",
+                    "name": "Équipe d'essai",
+                    "email": "equipe-a004@example.com",
+                    "role": "contact"
+                }
+            ],
+            "created_at": "2026-03-02T09:15:00.000000+00:00",
+            "datasets": {
+                "rel": "subsection",
+                "href": "https://www.data.gouv.fr/api/1/datasets/?dataservice=aaaa0000000000000000a004",
+                "type": "GET",
+                "total": 1
+            },
+            "deleted_at": null,
+            "description": "Service décrit dans le catalogue, sans adresse publiée.",
+            "extras": {
+                "is_franceconnect": false
+            },
+            "featured": false,
+            "format": null,
+            "harvest": null,
+            "id": "aaaa0000000000000000a004",
+            "license": null,
+            "machine_documentation_url": null,
+            "metadata_modified_at": "2026-10-20T14:30:00.000000+00:00",
+            "metrics": {
+                "views": 120,
+                "followers": 3
+            },
+            "organization": {
+                "class": "Organization",
+                "id": "bbbbbfbc9d4ac05b8b68a32f",
+                "name": "Institut d'essai des statistiques",
+                "slug": "institut-essai-statistiques",
+                "acronym": null,
+                "page": "https://www.data.gouv.fr/organizations/institut-essai-statistiques/",
+                "uri": "https://www.data.gouv.fr/api/1/organizations/institut-essai-statistiques/",
+                "logo": null,
+                "badges": []
+            },
+            "owner": null,
+            "permissions": {
+                "delete": false,
+                "edit": false,
+                "read": true
+            },
+            "private": false,
+            "quality": {
+                "score": 0.5
+            },
+            "rate_limiting": null,
+            "rate_limiting_url": null,
+            "self_api_url": "https://www.data.gouv.fr/api/1/dataservices/aaaa0000000000000000a004/",
+            "self_web_url": "https://www.data.gouv.fr/dataservices/essai-a004/",
+            "slug": "essai-a004",
+            "tags": [],
+            "technical_documentation_url": null,
+            "title": "Service sans adresse"
+        },
+        {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived_at": null,
+            "authorization_request_url": null,
+            "availability": null,
+            "availability_url": null,
+            "badges": [],
+            "base_api_url": "http://ancien.example.net/v1",
+            "business_documentation_url": null,
+            "contact_points": [
+                {
+                    "id": "cccc0000000000000000a005",
+                    "name": "Équipe d'essai",
+                    "email": "equipe-a005@example.com",
+                    "role": "contact"
+                }
+            ],
+            "created_at": "2026-03-02T09:15:00.000000+00:00",
+            "datasets": {
+                "rel": "subsection",
+                "href": "https://www.data.gouv.fr/api/1/datasets/?dataservice=aaaa0000000000000000a005",
+                "type": "GET",
+                "total": 1
+            },
+            "deleted_at": null,
+            "description": null,
+            "extras": {
+                "is_franceconnect": false
+            },
+            "featured": false,
+            "format": "REST",
+            "harvest": null,
+            "id": "aaaa0000000000000000a005",
+            "license": null,
+            "machine_documentation_url": null,
+            "metadata_modified_at": "2026-10-20T14:30:00.000000+00:00",
+            "metrics": {
+                "views": 120,
+                "followers": 3
+            },
+            "organization": {
+                "class": "Organization",
+                "id": "bbbb346aec812481a0a3d921",
+                "name": "Institut d'essai géographique",
+                "slug": "institut-essai-geographique",
+                "acronym": null,
+                "page": "https://www.data.gouv.fr/organizations/institut-essai-geographique/",
+                "uri": "https://www.data.gouv.fr/api/1/organizations/institut-essai-geographique/",
+                "logo": null,
+                "badges": []
+            },
+            "owner": null,
+            "permissions": {
+                "delete": false,
+                "edit": false,
+                "read": true
+            },
+            "private": false,
+            "quality": {
+                "score": 0.5
+            },
+            "rate_limiting": null,
+            "rate_limiting_url": null,
+            "self_api_url": "https://www.data.gouv.fr/api/1/dataservices/aaaa0000000000000000a005/",
+            "self_web_url": "https://www.data.gouv.fr/dataservices/essai-a005/",
+            "slug": "essai-a005",
+            "tags": [],
+            "technical_documentation_url": null,
+            "title": "Passerelle ancienne"
+        },
+        {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived_at": null,
+            "authorization_request_url": null,
+            "availability": null,
+            "availability_url": null,
+            "badges": [],
+            "base_api_url": "https://panne.example.net/api",
+            "business_documentation_url": null,
+            "contact_points": [
+                {
+                    "id": "cccc0000000000000000a006",
+                    "name": "Équipe d'essai",
+                    "email": "equipe-a006@example.com",
+                    "role": "contact"
+                }
+            ],
+            "created_at": "2026-03-02T09:15:00.000000+00:00",
+            "datasets": {
+                "rel": "subsection",
+                "href": "https://www.data.gouv.fr/api/1/datasets/?dataservice=aaaa0000000000000000a006",
+                "type": "GET",
+                "total": 1
+            },
+            "deleted_at": null,
+            "description": null,
+            "extras": {
+                "is_franceconnect": false
+            },
+            "featured": false,
+            "format": "REST",
+            "harvest": null,
+            "id": "aaaa0000000000000000a006",
+            "license": null,
+            "machine_documentation_url": "https://panne.example.net/doc",
+            "metadata_modified_at": "2026-10-20T14:30:00.000000+00:00",
+            "metrics": {
+                "views": 120,
+                "followers": 3
+            },
+            "organization": {
+                "class": "Organization",
+                "id": "bbbbbfbc9d4ac05b8b68a32f",
+                "name": "Institut d'essai des statistiques",
+                "slug": "institut-essai-statistiques",
+                "acronym": null,
+                "page": "https://www.data.gouv.fr/organizations/institut-essai-statistiques/",
+                "uri": "https://www.data.gouv.fr/api/1/organizations/institut-essai-statistiques/",
+                "logo": null,
+                "badges": []
+            },
+            "owner": null,
+            "permissions": {
+                "delete": false,
+                "edit": false,
+                "read": true
+            },
+            "private": false,
+            "quality": {
+                "score": 0.5
+            },
+            "rate_limiting": null,
+            "rate_limiting_url": null,
+            "self_api_url": "https://www.data.gouv.fr/api/1/dataservices/aaaa0000000000000000a006/",
+            "self_web_url": "https://www.data.gouv.fr/dataservices/essai-a006/",
+            "slug": "essai-a006",
+            "tags": [],
+            "technical_documentation_url": null,
+            "title": "API en panne"
+        },
+        {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived_at": null,
+            "authorization_request_url": null,
+            "availability": null,
+            "availability_url": null,
+            "badges": [],
+            "base_api_url": "https://api.example.com/limitee",
+            "business_documentation_url": null,
+            "contact_points": [
+                {
+                    "id": "cccc0000000000000000a007",
+                    "name": "Équipe d'essai",
+                    "email": "equipe-a007@example.com",
+                    "role": "contact"
+                }
+            ],
+            "created_at": "2026-03-02T09:15:00.000000+00:00",
+            "datasets": {
+                "rel": "subsection",
+                "href": "https://www.data.gouv.fr/api/1/datasets/?dataservice=aaaa0000000000000000a007",
+                "type": "GET",
+                "total": 1
+            },
+            "deleted_at": null,
+            "description": null,
+            "extras": {
+                "is_franceconnect": false
+            },
+            "featured": false,
+            "format": "REST",
+            "harvest": null,
+            "id": "aaaa0000000000000000a007",
+            "license": null,
+            "machine_documentation_url": "https://api.example.com/limitee/introuvable.json",
+            "metadata_modified_at": "2026-10-20T14:30:00.000000+00:00",
+            "metrics": {
+                "views": 120,
+                "followers": 3
+            },
+            "organization": {
+                "class": "Organization",
+                "id": "bbbb346aec812481a0a3d921",
+                "name": "Institut d'essai géographique",
+                "slug": "institut-essai-geographique",
+                "acronym": null,
+                "page": "https://www.data.gouv.fr/organizations/institut-essai-geographique/",
+                "uri": "https://www.data.gouv.fr/api/1/organizations/institut-essai-geographique/",
+                "logo": null,
+                "badges": []
+            },
+            "owner": null,
+            "permissions": {
+                "delete": false,
+                "edit": false,
+                "read": true
+            },
+            "private": false,
+            "quality": {
+                "score": 0.5
+            },
+            "rate_limiting": null,
+            "rate_limiting_url": null,
+            "self_api_url": "https://www.data.gouv.fr/api/1/dataservices/aaaa0000000000000000a007/",
+            "self_web_url": "https://www.data.gouv.fr/dataservices/essai-a007/",
+            "slug": "essai-a007",
+            "tags": [],
+            "technical_documentation_url": null,
+            "title": "API limitée"
+        },
+        {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived_at": null,
+            "authorization_request_url": null,
+            "availability": null,
+            "availability_url": null,
+            "badges": [],
+            "base_api_url": "https://disparue.example.org/api",
+            "business_documentation_url": null,
+            "contact_points": [
+                {
+                    "id": "cccc0000000000000000a008",
+                    "name": "Équipe d'essai",
+                    "email": "equipe-a008@example.com",
+                    "role": "contact"
+                }
+            ],
+            "created_at": "2026-03-02T09:15:00.000000+00:00",
+            "datasets": {
+                "rel": "subsection",
+                "href": "https://www.data.gouv.fr/api/1/datasets/?dataservice=aaaa0000000000000000a008",
+                "type": "GET",
+                "total": 1
+            },
+            "deleted_at": null,
+            "description": null,
+            "extras": {
+                "is_franceconnect": false
+            },
+            "featured": false,
+            "format": "REST",
+            "harvest": null,
+            "id": "aaaa0000000000000000a008",
+            "license": null,
+            "machine_documentation_url": null,
+            "metadata_modified_at": "2026-10-20T14:30:00.000000+00:00",
+            "metrics": {
+                "views": 120,
+                "followers": 3
+            },
+            "organization": {
+                "class": "Organization",
+                "id": "bbbbbfbc9d4ac05b8b68a32f",
+                "name": "Institut d'essai des statistiques",
+                "slug": "institut-essai-statistiques",
+                "acronym": null,
+                "page": "https://www.data.gouv.fr/organizations/institut-essai-statistiques/",
+                "uri": "https://www.data.gouv.fr/api/1/organizations/institut-essai-statistiques/",
+                "logo": null,
+                "badges": []
+            },
+            "owner": null,
+            "permissions": {
+                "delete": false,
+                "edit": false,
+                "read": true
+            },
+            "private": false,
+            "quality": {
+                "score": 0.5
+            },
+            "rate_limiting": null,
+            "rate_limiting_url": null,
+            "self_api_url": "https://www.data.gouv.fr/api/1/dataservices/aaaa0000000000000000a008/",
+            "self_web_url": "https://www.data.gouv.fr/dataservices/essai-a008/",
+            "slug": "essai-a008",
+            "tags": [],
+            "technical_documentation_url": null,
+            "title": "API disparue"
+        }
+    ],
+    "next_page": "https://www.data.gouv.fr/api/1/dataservices/?page_size=100&page=2",
+    "page": 1,
+    "page_size": 100,
+    "previous_page": null,
+    "total": 19
+}
