@@ -55,22 +55,22 @@ Chiffres générés à chaque version, à partir de `data/apis.json`. La liste d
 [`LISTE.md`](LISTE.md).
 
 <!-- catalogue:debut -->
-Catalogue du 14/11/2026 : 1260 API, 265 hôtes, 202 organisations. Fichiers complets : [`data/apis.json`](data/apis.json) et [`data/apis.csv`](data/apis.csv). Liste par organisation : [`LISTE.md`](LISTE.md).
+Catalogue du 18/11/2026 : 1269 API, 272 hôtes, 205 organisations. Fichiers complets : [`data/apis.json`](data/apis.json) et [`data/apis.csv`](data/apis.csv). Liste par organisation : [`LISTE.md`](LISTE.md).
 
 | Type d'accès | Valeur | API |
 |---|---|---:|
-| Ouvert | `ouvert` | 1098 |
-| Ouvert avec compte | `ouvert_avec_compte` | 43 |
+| Ouvert | `ouvert` | 1106 |
+| Ouvert avec compte | `ouvert_avec_compte` | 44 |
 | Restreint | `restreint` | 119 |
 
 | Résultat du test | Valeur | API |
 |---|---|---:|
-| Répond | `repond` | 1105 |
-| Accès refusé | `acces_refuse` | 22 |
-| Introuvable | `introuvable` | 62 |
-| Erreur du client | `erreur_client` | 17 |
+| Répond | `repond` | 1108 |
+| Accès refusé | `acces_refuse` | 21 |
+| Introuvable | `introuvable` | 66 |
+| Erreur du client | `erreur_client` | 18 |
 | Erreur du serveur | `erreur_serveur` | 3 |
-| Injoignable | `injoignable` | 16 |
+| Injoignable | `injoignable` | 18 |
 | Non testé | `non_teste` | 35 |
 
 Les 20 organisations qui publient le plus d'API :
@@ -82,7 +82,7 @@ Les 20 organisations qui publient le plus d'API :
 | ADEME | 113 |
 | Direction interministérielle du numérique | 66 |
 | Electricité de France | 54 |
-| Observatoire de l'environnement en Bretagne | 35 |
+| Observatoire de l'environnement en Bretagne | 36 |
 | SAINT-QUENTIN-EN-YVELINES | 35 |
 | Lig'Air | 32 |
 | Institut national de l'information géographique et forestière | 23 |

@@ -4,7 +4,7 @@ data.grandpoitiers.fr;143;Grand Poitiers Open Data;repond;143
 data.ademe.fr;112;ADEME;repond;112
 opendata.enedis.fr;100;;repond;100
 opendata.edf.fr;54;Electricité de France;repond;53
-data.bretagne-environnement.fr;35;Observatoire de l'environnement en Bretagne;repond;35
+data.bretagne-environnement.fr;36;Observatoire de l'environnement en Bretagne;repond;36
 opendata.sqy.fr;35;SAINT-QUENTIN-EN-YVELINES;repond;35
 entreprise.api.gouv.fr;34;Direction interministérielle du numérique;repond;34
 datacarto.opendata-ligair.fr;31;Lig'Air;repond;31
@@ -37,10 +37,11 @@ data.centrevaldeloire.fr;2;CHARTRES METROPOLE | Région Centre-Val de Loire;repo
 data.corsica;2;Collectivité de Corse;repond;1
 data.economie.gouv.fr;2;Ministères économiques et financiers;repond;2
 data.loire-atlantique.fr;2;Département de Loire-Atlantique;repond;2
-dialog.beta.gouv.fr;2;DiaLog;repond;2
+dialog.beta.gouv.fr;2;DiaLog;injoignable;0
 h34.hanoverdisplays.com;2;Réseau beeMob - Transports en commun de l'Agglomération Béziers Méditerranée;injoignable;0
 journal-officiel-datadila.opendatasoft.com;2;Premier ministre;repond;2
 open.urssaf.fr;2;Unions de Recouvrement des cotisations de Sécurité Sociale et d'Allocations Familiales;repond;2
+openbase.fr;2;OpenBase;repond;1
 partenaires.api.ameli.fr;2;Caisse nationale de l'Assurance Maladie;acces_refuse;0
 plateforme-bal.adresse.data.gouv.fr;2;adresse.data.gouv.fr;introuvable;0
 services.data.shom.fr;2;Shom;acces_refuse;0
@@ -76,7 +77,7 @@ api.insourcia.io;1;Insourcia;acces_refuse;0
 api.mobilic.beta.gouv.fr;1;Ministère de la Transition écologique;erreur_client;0
 api.mobilit.app;1;;repond;1
 api.nocrates.com;1;Nocratès;injoignable;0
-api.opendata.onisep.fr;1;Office national d'information sur les enseignements et les professions;acces_refuse;0
+api.opendata.onisep.fr;1;Office national d'information sur les enseignements et les professions;repond;1
 api.orphacode.org;1;Institut national de la santé et de la recherche médicale (Inserm);repond;1
 api.pasdevelib.app;1;PasDeVélib;repond;1
 api.renater.fr;1;Ministère de l'Enseignement supérieur, de la Recherche et de l'Espace;injoignable;0
@@ -106,10 +107,12 @@ catalogue-apprentissage.intercariforef.org;1;Réseau des Carif-Oref;repond;1
 catalogue.data.anrdi.fr;1;ASSOCIATION NATIONALE DE REGULATION DES DOMAINES ET DE L'INTERNET;injoignable;0
 catalogue.opendata-ligair.fr;1;Lig'Air;introuvable;0
 catalogue.sigloire.fr;1;DREAL Pays de la Loire;repond;1
+catnat.amacunia.fr;1;Amacunia;introuvable;0
 chaville-seineouest.opendatasoft.com;1;Commune de Chaville;repond;1
 climascore.fr;1;ClimaScore;introuvable;0
 comparateurinternet.fr;1;Comparateur Internet;repond;1
 connect.visamundi.io;1;Visamundi;acces_refuse;0
+creances.amacunia.fr;1;Amacunia;introuvable;0
 cvec-ctrl.etudiant.gouv.fr;1;Centre National des Œuvres Universitaires et Scolaires;repond;1
 data-cines-indes.koumoul.com;1;Syndicat des Cinémas d'Art, de Répertoire et d'Essai;injoignable;0
 data-essentiel.atih.sante.fr;1;Agence Technique de l'information sur l'Hospitalisation (ATIH);repond;1
@@ -189,6 +192,7 @@ giveradar.com;1;;repond;1
 gpseo.opendatasoft.com;1;Epône;repond;1
 impactco2.fr;1;ADEME;introuvable;0
 jourtempo.fr;1;Jour Tempo;repond;1
+karoto.fr;1;Karoto;repond;1
 lemarche.inclusion.beta.gouv.fr;1;Plateforme de l'inclusion;repond;1
 lesbancs.fr;1;Les bancs;repond;1
 localisation.flotteoceanographique.fr;1;Institut français de recherche pour l'exploitation de la mer (IFREMER);repond;1
@@ -219,7 +223,9 @@ opendata.koumoul.com;1;Koumoul;repond;1
 opendata.paris.fr;1;Ville de Paris;repond;1
 opendata.saemes.fr;1;Saemes;repond;1
 opendata.siri.transports-lia.fr;1;Réseau de transport en commun Le Havre Seine Métropole LiA;repond;1
-pillr.fr;1;Pillr;introuvable;0
+oppositions.amacunia.fr;1;Amacunia;introuvable;0
+phyto.amacunia.fr;1;Amacunia;introuvable;0
+pillr.fr;1;Pillr;repond;1
 plateforme.adresse.data.gouv.fr;1;Institut national de l'information géographique et forestière;introuvable;0
 poligraph.fr;1;Association Sankofa;erreur_client;0
 portail-api.montpellier.fr;1;Montpellier Méditerranée Métropole;repond;1
@@ -238,6 +244,7 @@ saint-louis-agglo.opendatasoft.com;1;Saint-Louis Agglomération;repond;1
 sevres-seineouest.opendatasoft.com;1;Ville de Sèvres;repond;1
 si-amiante.sante.gouv.fr;1;Ministère des Solidarités et de la Santé;repond;1
 smt.esante.gouv.fr;1;Agence du Numérique en Santé;repond;1
+syndic.amacunia.fr;1;Amacunia;introuvable;0
 tabular-api.data.gouv.fr;1;data.gouv.fr;introuvable;0
 temoinpublic.fr;1;Témoin public;repond;1
 transport.data.gouv.fr;1;Ministère de la Transition écologique;repond;1

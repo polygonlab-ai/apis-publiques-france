@@ -1,8 +1,8 @@
 {
     "source": "data.gouv.fr, catalogue des API",
     "page": "https://www.data.gouv.fr/dataservices/",
-    "date_source": "2026-11-14",
-    "nombre": 265,
+    "date_source": "2026-11-18",
+    "nombre": 272,
     "hotes": [
         {
             "hote": "datarmor.cotesdarmor.fr",
@@ -54,12 +54,12 @@
         },
         {
             "hote": "data.bretagne-environnement.fr",
-            "nombre_apis": 35,
+            "nombre_apis": 36,
             "organisations": [
                 "Observatoire de l'environnement en Bretagne"
             ],
             "resultat": "repond",
-            "nombre_qui_repondent": 35
+            "nombre_qui_repondent": 36
         },
         {
             "hote": "opendata.sqy.fr",
@@ -361,8 +361,8 @@
             "organisations": [
                 "DiaLog"
             ],
-            "resultat": "repond",
-            "nombre_qui_repondent": 2
+            "resultat": "injoignable",
+            "nombre_qui_repondent": 0
         },
         {
             "hote": "h34.hanoverdisplays.com",
@@ -390,6 +390,15 @@
             ],
             "resultat": "repond",
             "nombre_qui_repondent": 2
+        },
+        {
+            "hote": "openbase.fr",
+            "nombre_apis": 2,
+            "organisations": [
+                "OpenBase"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
         },
         {
             "hote": "partenaires.api.ameli.fr",
@@ -706,8 +715,8 @@
             "organisations": [
                 "Office national d'information sur les enseignements et les professions"
             ],
-            "resultat": "acces_refuse",
-            "nombre_qui_repondent": 0
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
         },
         {
             "hote": "api.orphacode.org",
@@ -965,6 +974,15 @@
             "nombre_qui_repondent": 1
         },
         {
+            "hote": "catnat.amacunia.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Amacunia"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
             "hote": "chaville-seineouest.opendatasoft.com",
             "nombre_apis": 1,
             "organisations": [
@@ -998,6 +1016,15 @@
                 "Visamundi"
             ],
             "resultat": "acces_refuse",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "creances.amacunia.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Amacunia"
+            ],
+            "resultat": "introuvable",
             "nombre_qui_repondent": 0
         },
         {
@@ -1708,6 +1735,15 @@
             "nombre_qui_repondent": 1
         },
         {
+            "hote": "karoto.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Karoto"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
             "hote": "lemarche.inclusion.beta.gouv.fr",
             "nombre_apis": 1,
             "organisations": [
@@ -1970,13 +2006,31 @@
             "nombre_qui_repondent": 1
         },
         {
+            "hote": "oppositions.amacunia.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Amacunia"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
+            "hote": "phyto.amacunia.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Amacunia"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
             "hote": "pillr.fr",
             "nombre_apis": 1,
             "organisations": [
                 "Pillr"
             ],
-            "resultat": "introuvable",
-            "nombre_qui_repondent": 0
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
         },
         {
             "hote": "plateforme.adresse.data.gouv.fr",
@@ -2139,6 +2193,15 @@
             ],
             "resultat": "repond",
             "nombre_qui_repondent": 1
+        },
+        {
+            "hote": "syndic.amacunia.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "Amacunia"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
         },
         {
             "hote": "tabular-api.data.gouv.fr",

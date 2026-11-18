@@ -1259,3 +1259,16 @@
 2026-11-14;entree;6a450b52a3965943f1c2b92b;Zones de compétence des centres d'exploitation routière (CER) des Côtes d'Armor;Département des Côtes d'Armor, accès ouvert, test repond
 2026-11-14;entree;6a44da25c2045487e5dd2e3e;Zones de compétence des centres d'exploitation routière (CER) des Côtes d'Armor -2016- ARCHIVE;Département des Côtes d'Armor, accès ouvert, test repond
 2026-11-14;entree;6a4e010b0c71bd1f5a1516c0;Zones de préemption des Espaces Naturels Sensibles (ENS) des Côtes-d'Armor;Département des Côtes d'Armor, accès ouvert, test repond
+2026-11-18;entree;6afc13d0d3ecd6660e1cf406;Acteurs de l'économie sociale et solidaire dédiés au réemploi en Bretagne;Observatoire de l'environnement en Bretagne, accès ouvert, test repond
+2026-11-18;changement_test;69bc0321d04783bbc30d14ee;API d'écriture de la base nationale de la règlementation de circulation;repond -> injoignable
+2026-11-18;changement_test;6af89d669423b891a80bab9c;API de données immobilières (Pillr Data) : annonces de vente analysées, pré-marché, prix immobiliers, loyers et adresses;introuvable -> repond
+2026-11-18;changement_test;672cf6895e554cca4a916029;API données ouvertes de l'ONISEP;acces_refuse -> repond
+2026-11-18;entree;6afc9a76be15732c6ca8b2f6;API OpenBase : dirigeants, bilans, procédures collectives, score et site web des entreprises françaises;OpenBase, accès ouvert, test erreur_client
+2026-11-18;changement_test;69bbe41698e96dfd63d2fa19;Flux DATEX II des restrictions de circulation;repond -> injoignable
+2026-11-18;entree;6af8d27fb5fcf4d4c773806c;Karoto Data : API des prix de la voiture d'occasion (France, Allemagne);Karoto, accès ouvert_avec_compte, test repond
+2026-11-18;entree;6afb6b79d253a67d0a008e2d;Sentinelle catnat : arrêtés de catastrophe naturelle par commune et délai de déclaration du sinistre;Amacunia, accès ouvert, test introuvable
+2026-11-18;entree;6afb49eb3df79e332a8d0664;Sentinelle créances : procédures collectives du BODACC et date limite de déclaration de créance;Amacunia, accès ouvert, test introuvable
+2026-11-18;entree;6afb6f26b9c00aa6aaf3f364;Sentinelle oppositions : ventes de fonds et fusions du BODACC, avec la date limite d'opposition des créanciers;Amacunia, accès ouvert, test introuvable
+2026-11-18;entree;6afb704ea6df246ad9b5e3b9;Sentinelle phyto : produits phytosanitaires retirés et délais de vente et d'utilisation;Amacunia, accès ouvert, test introuvable
+2026-11-18;entree;6afb70e2027c0337c1e89ad6;Sentinelle syndic : syndic d'une copropriété et fin de son mandat;Amacunia, accès ouvert, test introuvable
+2026-11-18;entree;6afc9f8dddaccf47eeaf14b7;Serveur MCP OpenBase : entreprises françaises pour les assistants IA;OpenBase, accès ouvert, test repond

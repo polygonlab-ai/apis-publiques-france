@@ -3,7 +3,7 @@
 > Page générée par `tools/actualiser.php` à chaque version du catalogue : ne pas la modifier à la main.
 > Ce que mesure le test, et ses limites : voir le [README](README.md).
 
-Catalogue du 14/11/2026 : 1260 API, 202 organisations. Les portails de plus de 30 API sont repliés en une ligne ; leur détail est dans [`data/apis.csv`](data/apis.csv).
+Catalogue du 18/11/2026 : 1269 API, 205 organisations. Les portails de plus de 30 API sont repliés en une ligne ; leur détail est dans [`data/apis.csv`](data/apis.csv).
 
 ## ADEME (113)
 
@@ -113,6 +113,16 @@ Catalogue du 14/11/2026 : 1260 API, 202 organisations. Les portails de plus de 3
 | API | Accès | Test |
 |---|---|---|
 | [API publique MANA — vie locale, associations et bénévolat en France](https://www.data.gouv.fr/dataservices/api-publique-mana-vie-locale-associations-et-benevolat-en-france) | Ouvert | `repond` |
+
+## Amacunia (5)
+
+| API | Accès | Test |
+|---|---|---|
+| [Sentinelle catnat : arrêtés de catastrophe naturelle par commune et délai de déclaration du sinistre](https://www.data.gouv.fr/dataservices/sentinelle-catnat-arretes-de-catastrophe-naturelle-par-commune-et-delai-de-declaration-du-sinistre) | Ouvert | `introuvable` |
+| [Sentinelle créances : procédures collectives du BODACC et date limite de déclaration de créance](https://www.data.gouv.fr/dataservices/sentinelle-creances-procedures-collectives-du-bodacc-et-date-limite-de-declaration-de-creance) | Ouvert | `introuvable` |
+| [Sentinelle oppositions : ventes de fonds et fusions du BODACC, avec la date limite d'opposition des créanciers](https://www.data.gouv.fr/dataservices/sentinelle-oppositions-ventes-de-fonds-et-fusions-du-bodacc-avec-la-date-limite-dopposition-des-creanciers) | Ouvert | `introuvable` |
+| [Sentinelle phyto : produits phytosanitaires retirés et délais de vente et d'utilisation](https://www.data.gouv.fr/dataservices/sentinelle-phyto-produits-phytosanitaires-retires-et-delais-de-vente-et-dutilisation) | Ouvert | `introuvable` |
+| [Sentinelle syndic : syndic d'une copropriété et fin de son mandat](https://www.data.gouv.fr/dataservices/sentinelle-syndic-syndic-dune-copropriete-et-fin-de-son-mandat) | Ouvert | `introuvable` |
 
 ## Angers Loire Métropole (1)
 
@@ -457,8 +467,8 @@ Catalogue du 14/11/2026 : 1260 API, 202 organisations. Les portails de plus de 3
 
 | API | Accès | Test |
 |---|---|---|
-| [API d'écriture de la base nationale de la règlementation de circulation](https://www.data.gouv.fr/dataservices/api-decriture-de-la-base-nationale-de-la-reglementation-de-circulation) | Restreint | `repond` |
-| [Flux DATEX II des restrictions de circulation](https://www.data.gouv.fr/dataservices/flux-datex-ii-des-restrictions-de-circulation) | Ouvert | `repond` |
+| [API d'écriture de la base nationale de la règlementation de circulation](https://www.data.gouv.fr/dataservices/api-decriture-de-la-base-nationale-de-la-reglementation-de-circulation) | Restreint | `injoignable` |
+| [Flux DATEX II des restrictions de circulation](https://www.data.gouv.fr/dataservices/flux-datex-ii-des-restrictions-de-circulation) | Ouvert | `injoignable` |
 
 ## Dijon métropole (1)
 
@@ -748,6 +758,12 @@ Catalogue du 14/11/2026 : 1260 API, 202 organisations. Les portails de plus de 3
 |---|---|---|
 | [API Tempo Jour Tempo](https://www.data.gouv.fr/dataservices/api-tempo-jour-tempo) | Ouvert | `repond` |
 
+## Karoto (1)
+
+| API | Accès | Test |
+|---|---|---|
+| [Karoto Data : API des prix de la voiture d'occasion (France, Allemagne)](https://www.data.gouv.fr/dataservices/karoto-data-api-des-prix-de-la-voiture-doccasion-france-allemagne) | Ouvert avec compte | `repond` |
+
 ## Koumoul (1)
 
 | API | Accès | Test |
@@ -981,11 +997,11 @@ Catalogue du 14/11/2026 : 1260 API, 202 organisations. Les portails de plus de 3
 |---|---|---|
 | [Nocratès TAD](https://www.data.gouv.fr/dataservices/nocrates-tad) | Restreint | `injoignable` |
 
-## Observatoire de l'environnement en Bretagne (35)
+## Observatoire de l'environnement en Bretagne (36)
 
 | API | Accès | Test |
 |---|---|---|
-| 35 API sur `data.bretagne-environnement.fr` : voir [`data/apis.csv`](data/apis.csv) | | 35 sur 35 répondent |
+| 36 API sur `data.bretagne-environnement.fr` : voir [`data/apis.csv`](data/apis.csv) | | 36 sur 36 répondent |
 
 ## Observatoire des Finances et de la Gestion publique Locales (1)
 
@@ -997,7 +1013,7 @@ Catalogue du 14/11/2026 : 1260 API, 202 organisations. Les portails de plus de 3
 
 | API | Accès | Test |
 |---|---|---|
-| [API données ouvertes de l'ONISEP](https://www.data.gouv.fr/dataservices/api-donnees-ouvertes-de-lonisep) | Ouvert | `acces_refuse` |
+| [API données ouvertes de l'ONISEP](https://www.data.gouv.fr/dataservices/api-donnees-ouvertes-de-lonisep) | Ouvert | `repond` |
 
 ## Open Data Réseaux Énergies (1)
 
@@ -1011,6 +1027,13 @@ Catalogue du 14/11/2026 : 1260 API, 202 organisations. Les portails de plus de 3
 |---|---|---|
 | [API Open Products Facts](https://www.data.gouv.fr/dataservices/api-open-products-facts) | Ouvert | `non_teste` |
 | [Open Prices](https://www.data.gouv.fr/dataservices/open-prices) | Ouvert | `repond` |
+
+## OpenBase (2)
+
+| API | Accès | Test |
+|---|---|---|
+| [API OpenBase : dirigeants, bilans, procédures collectives, score et site web des entreprises françaises](https://www.data.gouv.fr/dataservices/api-openbase-dirigeants-bilans-procedures-collectives-score-et-site-web-des-entreprises-francaises) | Ouvert | `erreur_client` |
+| [Serveur MCP OpenBase : entreprises françaises pour les assistants IA](https://www.data.gouv.fr/dataservices/serveur-mcp-openbase-entreprises-francaises-pour-les-assistants-ia) | Ouvert | `repond` |
 
 ## Orléans Métropole (1)
 
@@ -1041,7 +1064,7 @@ Catalogue du 14/11/2026 : 1260 API, 202 organisations. Les portails de plus de 3
 
 | API | Accès | Test |
 |---|---|---|
-| [API de données immobilières (Pillr Data) : annonces de vente analysées, pré-marché, prix immobiliers, loyers et adresses](https://www.data.gouv.fr/dataservices/api-de-donnees-immobilieres-pillr-data-annonces-de-vente-analysees-pre-marche-prix-immobiliers-loyers-et-adresses) | Ouvert avec compte | `introuvable` |
+| [API de données immobilières (Pillr Data) : annonces de vente analysées, pré-marché, prix immobiliers, loyers et adresses](https://www.data.gouv.fr/dataservices/api-de-donnees-immobilieres-pillr-data-annonces-de-vente-analysees-pre-marche-prix-immobiliers-loyers-et-adresses) | Ouvert avec compte | `repond` |
 
 ## Plateforme de l'inclusion (5)
 

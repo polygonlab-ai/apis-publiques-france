@@ -7,6 +7,46 @@ correctif, publiée automatiquement.
 Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/) et le projet respecte
 le [versionnage sémantique](https://semver.org/lang/fr/).
 
+## [0.1.1] - 2026-11-18 - Catalogue du 18/11/2026 : 9 entrées, 4 tests changés, 1 autre modification
+
+### Entrées
+
+- Acteurs de l'économie sociale et solidaire dédiés au réemploi en Bretagne : Observatoire de l'environnement en Bretagne, accès ouvert, test repond
+- API OpenBase : dirigeants, bilans, procédures collectives, score et site web des entreprises françaises : OpenBase, accès ouvert, test erreur_client
+- Karoto Data : API des prix de la voiture d'occasion (France, Allemagne) : Karoto, accès ouvert_avec_compte, test repond
+- Sentinelle catnat : arrêtés de catastrophe naturelle par commune et délai de déclaration du sinistre : Amacunia, accès ouvert, test introuvable
+- Sentinelle créances : procédures collectives du BODACC et date limite de déclaration de créance : Amacunia, accès ouvert, test introuvable
+- Sentinelle oppositions : ventes de fonds et fusions du BODACC, avec la date limite d'opposition des créanciers : Amacunia, accès ouvert, test introuvable
+- Sentinelle phyto : produits phytosanitaires retirés et délais de vente et d'utilisation : Amacunia, accès ouvert, test introuvable
+- Sentinelle syndic : syndic d'une copropriété et fin de son mandat : Amacunia, accès ouvert, test introuvable
+- Serveur MCP OpenBase : entreprises françaises pour les assistants IA : OpenBase, accès ouvert, test repond
+
+### Changements de résultat de test
+
+- API d'écriture de la base nationale de la règlementation de circulation : repond -> injoignable
+- API de données immobilières (Pillr Data) : annonces de vente analysées, pré-marché, prix immobiliers, loyers et adresses : introuvable -> repond
+- API données ouvertes de l'ONISEP : acces_refuse -> repond
+- Flux DATEX II des restrictions de circulation : repond -> injoignable
+
+### Autres modifications
+
+- API Open Products Facts : documentation_machine_test
+
+### Listes
+
+- API publiques françaises : 1269
+- Hôtes : 272
+- Accès ouvert : 1106
+- Accès ouvert_avec_compte : 44
+- Accès restreint : 119
+- Test repond : 1108
+- Test acces_refuse : 21
+- Test introuvable : 66
+- Test erreur_client : 18
+- Test erreur_serveur : 3
+- Test injoignable : 18
+- Test non_teste : 35
+
 ## [0.1.0] - 2026-11-14 - Première publication du catalogue
 
 ### Ajouté
@@ -26,6 +66,7 @@ le [versionnage sémantique](https://semver.org/lang/fr/).
 - Aucune adresse e-mail ni point de contact publié ; API écartées automatiquement si une valeur contient une adresse IPv4, un motif de clé d'API ou un mot interdit.
 - Garde-fous : rien n'est écrit devant une liste vide, une entrée sans champ obligatoire, plus de 20 % d'API disparues, plus de 30 % d'adresses injoignables ou plus de 25 % de résultats de test changés.
 
+[0.1.1]: https://github.com/polygonlab-ai/apis-publiques-france/releases/tag/v0.1.1
 [0.1.0]: https://github.com/polygonlab-ai/apis-publiques-france/releases/tag/v0.1.0
 
 ---
