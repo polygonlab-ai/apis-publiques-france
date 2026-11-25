@@ -1,13 +1,13 @@
 ﻿hote;nombre_apis;organisations;resultat;nombre_qui_repondent
 datarmor.cotesdarmor.fr;251;Département des Côtes d'Armor | Lannion-Trégor Communauté | Musée d'art et d'histoire - Ville de Saint-Brieuc | Saint-Brieuc Armor Agglomération | Ville de Plaintel | Ville de PLERIN;repond;251
-data.grandpoitiers.fr;143;Grand Poitiers Open Data;repond;143
+data.grandpoitiers.fr;142;Grand Poitiers Open Data;repond;142
 data.ademe.fr;112;ADEME;repond;112
 opendata.enedis.fr;100;;repond;100
 opendata.edf.fr;54;Electricité de France;repond;53
 data.bretagne-environnement.fr;36;Observatoire de l'environnement en Bretagne;repond;36
 opendata.sqy.fr;35;SAINT-QUENTIN-EN-YVELINES;repond;35
 entreprise.api.gouv.fr;34;Direction interministérielle du numérique;repond;34
-datacarto.opendata-ligair.fr;31;Lig'Air;repond;31
+datacarto.opendata-ligair.fr;31;Lig'Air;acces_refuse;0
 particulier.api.gouv.fr;22;Direction interministérielle du numérique | France Travail | Ministère de l'Enseignement supérieur, de la Recherche et de l'Espace;repond;22
 portail-api.meteofrance.fr;20;Météo-France;repond;20
 opendata.agenceore.fr;19;Agence ORE;repond;19
@@ -38,7 +38,7 @@ data.corsica;2;Collectivité de Corse;repond;1
 data.economie.gouv.fr;2;Ministères économiques et financiers;repond;2
 data.loire-atlantique.fr;2;Département de Loire-Atlantique;repond;2
 dialog.beta.gouv.fr;2;DiaLog;injoignable;0
-h34.hanoverdisplays.com;2;Réseau beeMob - Transports en commun de l'Agglomération Béziers Méditerranée;injoignable;0
+h34.hanoverdisplays.com;2;Réseau beeMob - Transports en commun de l'Agglomération Béziers Méditerranée;repond;2
 journal-officiel-datadila.opendatasoft.com;2;Premier ministre;repond;2
 open.urssaf.fr;2;Unions de Recouvrement des cotisations de Sécurité Sociale et d'Allocations Familiales;repond;2
 openbase.fr;2;OpenBase;repond;1
@@ -79,7 +79,7 @@ api.mobilit.app;1;;repond;1
 api.nocrates.com;1;Nocratès;injoignable;0
 api.opendata.onisep.fr;1;Office national d'information sur les enseignements et les professions;repond;1
 api.orphacode.org;1;Institut national de la santé et de la recherche médicale (Inserm);repond;1
-api.pasdevelib.app;1;PasDeVélib;repond;1
+api.pasdevelib.app;1;PasDeVélib;erreur_client;0
 api.renater.fr;1;Ministère de l'Enseignement supérieur, de la Recherche et de l'Espace;injoignable;0
 api.sandre.eaufrance.fr;1;Système d'Information sur l'Eau;repond;1
 api.skiradar.fr;1;Hestia Data;repond;1
@@ -103,7 +103,7 @@ bpce.opendatasoft.com;1;Groupe BPCE;repond;1
 cadastre.data.gouv.fr;1;data.gouv.fr;introuvable;0
 calendrier.api.gouv.fr;1;Direction interministérielle du numérique;repond;1
 candhis.cerema.fr;1;Cerema;acces_refuse;0
-catalogue-apprentissage.intercariforef.org;1;Réseau des Carif-Oref;repond;1
+catalogue-apprentissage.intercariforef.org;1;Réseau des Carif-Oref;erreur_serveur;0
 catalogue.data.anrdi.fr;1;ASSOCIATION NATIONALE DE REGULATION DES DOMAINES ET DE L'INTERNET;injoignable;0
 catalogue.opendata-ligair.fr;1;Lig'Air;introuvable;0
 catalogue.sigloire.fr;1;DREAL Pays de la Loire;repond;1
@@ -176,6 +176,7 @@ datavaccin-covid.ameli.fr;1;Caisse nationale de l'Assurance Maladie;repond;1
 depot.dpae-edi.urssaf.fr;1;Unions de Recouvrement des cotisations de Sécurité Sociale et d'Allocations Familiales;repond;1
 doc.demarche.numerique.gouv.fr;1;Direction interministérielle du numérique;repond;1
 doc.demarches-simplifiees.fr;1;Direction interministérielle du numérique;repond;1
+donnees-tempo.pages.dev;1;Jour Tempo;repond;1
 eclaire-api.sante.gouv.fr;1;Agence du Numérique en Santé;repond;1
 ecobalyse.beta.gouv.fr;1;Ecobalyse;repond;1
 edifiable.fr;1;Edifiable;repond;1
@@ -239,6 +240,7 @@ recherche-entreprises.api.gouv.fr;1;Direction interministérielle du numérique;
 reseau-mirabel.info;1;Sciences Po;repond;1
 resistance-haute-savoie.fr;1;Résistance Haute-Savoie;repond;1
 ressources.data.sncf.com;1;SNCF;repond;1
+reussir-mon-examen-civique.fr;1;reussir-mon-examen-civique.fr;introuvable;0
 rnb-api.beta.gouv.fr;1;Référentiel National des Bâtiments;repond;1
 saint-louis-agglo.opendatasoft.com;1;Saint-Louis Agglomération;repond;1
 sevres-seineouest.opendatasoft.com;1;Ville de Sèvres;repond;1
@@ -263,7 +265,7 @@ www.herault-data.fr;1;Département de l'Hérault;repond;1
 www.horizonapp.link;1;Horizon;repond;1
 www.idref.fr;1;Agence bibliographique de l'enseignement supérieur;repond;1
 www.info-financiere.gouv.fr;1;Premier ministre;repond;1
-www.insee.fr;1;Sailly-Lez-Lannoy;erreur_serveur;0
+www.insee.fr;1;Sailly-Lez-Lannoy;repond;1
 www.myfrenchtool.com;1;;repond;1
 www.opendata56.fr;1;Ville de Lorient;repond;1
 www.quivad.fr;1;QuiVad;repond;1

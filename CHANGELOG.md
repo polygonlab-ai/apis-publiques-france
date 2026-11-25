@@ -7,6 +7,88 @@ correctif, publiée automatiquement.
 Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/) et le projet respecte
 le [versionnage sémantique](https://semver.org/lang/fr/).
 
+## [0.1.2] - 2026-11-25 - Catalogue du 25/11/2026 : 2 entrées, 1 sortie, 36 tests changés, 10 autres modifications
+
+### Entrées
+
+- Calendrier Tempo à s'abonner (iCalendar) : la couleur de chaque jour dans son agenda : Jour Tempo, accès ouvert, test repond
+- Examen civique : API des centres agréés, parcours et coordonnées : reussir-mon-examen-civique.fr, accès ouvert, test introuvable
+
+### Sorties
+
+- Référentiel géographique - Cadastre - Données Hydrographie - Grand Poitiers Données de référence : absente du catalogue
+
+### Changements de résultat de test
+
+- API PasDeVélib : repond -> erreur_client
+- BeeMob vehicle-positions GTFS-RT : injoignable -> repond
+- BeeMobTrip_Update gtfs rt : injoignable -> repond
+- Catalogue Apprentissage : repond -> erreur_serveur
+- Concentrations de polluants dans l’air ambiant issues de mesures manuelles en région Centre-Val de Loire (service WFS) : repond -> acces_refuse
+- Concentrations moyennes annuelles de polluants dans l’air ambiant issues du réseau permanent de mesures automatiques en région Centre-Val de Loire (service WFS) : repond -> acces_refuse
+- Concentrations moyennes horaires de polluants dans l’air ambiant issues du réseau permanent de mesures automatiques en région Centre-Val de Loire (service WFS) : repond -> acces_refuse
+- Concentrations moyennes journalières de polluants dans l’air ambiant issues du réseau permanent de mesures automatiques en région Centre-Val de Loire (service WFS) : repond -> acces_refuse
+- Concentrations moyennes mensuelles de polluants dans l’air ambiant issues du réseau permanent de mesures automatiques en région Centre-Val de Loire (service WFS) : repond -> acces_refuse
+- Emissions de polluants atmosphériques tous secteurs d’activité confondus dans la région Centre -Val de Loire (service WFS) : repond -> acces_refuse
+- Emissions de polluants atmosphériques tous secteurs d’activité confondus dans la région Centre -Val de Loire (service WFS) : repond -> acces_refuse
+- Emissions de polluants atmosphériques tous secteurs d’activité confondus dans la région Centre -Val de Loire (service WFS) : repond -> acces_refuse
+- Emissions de polluants atmosphériques tous secteurs d’activité confondus dans la région Centre -Val de Loire (service WFS) : repond -> acces_refuse
+- Emissions de polluants atmosphériques tous secteurs d’activité confondus dans les départements de la région Centre -Val de Loire (service WFS) : repond -> acces_refuse
+- Emissions de polluants atmosphériques tous secteurs d’activité confondus dans les départements de la région Centre -Val de Loire (service WFS) : repond -> acces_refuse
+- Emissions de polluants atmosphériques tous secteurs d’activité confondus dans les EPCI de la région Centre -Val de Loire (service WFS) : repond -> acces_refuse
+- Emissions de polluants atmosphériques tous secteurs d’activité confondus dans les EPCI de la région Centre -Val de Loire (service WFS) : repond -> acces_refuse
+- Emissions de polluants atmosphériques tous secteurs d’activité confondus dans les EPCI de la région Centre -Val de Loire (service WFS) : repond -> acces_refuse
+- Emissions de polluants atmosphériques tous secteurs d’activité confondus dans les EPCI de la région Centre -Val de Loire (service WFS) : repond -> acces_refuse
+- Épisode de pollution pour la région Centre-Val de Loire de la veille jusqu’au lendemain (service WFS) : repond -> acces_refuse
+- Episodes de pollution pour la région Centre-Val de Loire pour l'année dernière et jusqu'à la veille (service WFS) : repond -> acces_refuse
+- Indice de qualité de l’air des agglomérations pour un an glissant et jusqu’au lendemain (service WFS) : repond -> acces_refuse
+- Indice de qualité de l’air des agglomérations sur 3 jours (service WFS) : repond -> acces_refuse
+- Indice Pollen des agglomérations pour un an glissant et jusqu’au lendemain (service WFS) : repond -> acces_refuse
+- Indice pollinique des agglomérations pour un an glissant et jusqu’au lendemain (service WFS) : repond -> acces_refuse
+- Insee : erreur_serveur -> repond
+- Populations et territoires exposés au dépassement de la valeur limite de PM10 et du NO2 sur la région Centre - Val de Loire pour l’année 2018 (service WFS) : repond -> acces_refuse
+- Populations et territoires exposés au dépassement de la valeur limite de PM10 et du NO2 sur la région Centre - Val de Loire pour l’année 2020 (service WFS) : repond -> acces_refuse
+- Populations et territoires exposés au dépassement de la valeur limite de PM10 et du NO2 sur la région Centre - Val de Loire pour l’année 2021 (service WFS) : repond -> acces_refuse
+- Populations et territoires exposés au dépassement de la valeur limite de PM10 et du NO2 sur la région Centre - Val de Loire pour l’année 2022 (service WFS) : repond -> acces_refuse
+- Populations et territoires exposés au dépassement de la valeur limite de PM10 et du NO2 sur la région Centre - Val de Loire pour l’année 2022 (service WFS) : repond -> acces_refuse
+- Populations et territoires exposés au dépassement de la valeur limite de PM10 et du NO2 sur la région Centre - Val de Loire pour l’année 2023 (service WFS) : repond -> acces_refuse
+- Populations et territoires exposés au dépassement de la valeur limite de PM10 et du NO2 sur les ZAS de la région Centre - Val de Loire pour l’année 2018 (service WFS) : repond -> acces_refuse
+- Populations et territoires exposés au dépassement de la valeur limite de PM10 et du NO2 sur les ZAS de la région Centre - Val de Loire pour l’année 2020 (service WFS) : repond -> acces_refuse
+- Populations et territoires exposés au dépassement de la valeur limite de PM10 et du NO2 sur les ZAS de la région Centre - Val de Loire pour l’année 2021 (service WFS) : repond -> acces_refuse
+- Populations et territoires exposés au dépassement de la valeur limite de PM10 et du NO2 sur les ZAS de la région Centre - Val de Loire pour l’année 2023 (service WFS) : repond -> acces_refuse
+
+### Autres modifications
+
+- API BDNB Open : documentation_machine_test
+- API BDNB Open Plus : documentation_machine_test
+- API OpenBase : dirigeants, bilans, procédures collectives, score et site web des entreprises françaises : limites
+- API PasDeVélib : documentation_machine_test
+- API Tempo Jour Tempo : description
+- Catalogue Apprentissage : documentation_machine_test
+- Emissions de polluants atmosphériques tous secteurs d’activité confondus dans la région Centre -Val de Loire (service WFS) : documentation_machine_test
+- Emissions de polluants atmosphériques tous secteurs d’activité confondus dans les EPCI de la région Centre -Val de Loire (service WFS) : documentation_machine_test
+- Explore API v2 https://zabal-agriculture.opendata-paysbasque.fr : documentation_machine_test
+- Insee : documentation_machine_test
+
+### Remarques
+
+- Adresse e-mail retirée (description) : API Tempo Jour Tempo
+
+### Listes
+
+- API publiques françaises : 1270
+- Hôtes : 274
+- Accès ouvert : 1107
+- Accès ouvert_avec_compte : 44
+- Accès restreint : 119
+- Test repond : 1078
+- Test acces_refuse : 52
+- Test introuvable : 67
+- Test erreur_client : 19
+- Test erreur_serveur : 3
+- Test injoignable : 16
+- Test non_teste : 35
+
 ## [0.1.1] - 2026-11-18 - Catalogue du 18/11/2026 : 9 entrées, 4 tests changés, 1 autre modification
 
 ### Entrées
@@ -66,6 +148,7 @@ le [versionnage sémantique](https://semver.org/lang/fr/).
 - Aucune adresse e-mail ni point de contact publié ; API écartées automatiquement si une valeur contient une adresse IPv4, un motif de clé d'API ou un mot interdit.
 - Garde-fous : rien n'est écrit devant une liste vide, une entrée sans champ obligatoire, plus de 20 % d'API disparues, plus de 30 % d'adresses injoignables ou plus de 25 % de résultats de test changés.
 
+[0.1.2]: https://github.com/polygonlab-ai/apis-publiques-france/releases/tag/v0.1.2
 [0.1.1]: https://github.com/polygonlab-ai/apis-publiques-france/releases/tag/v0.1.1
 [0.1.0]: https://github.com/polygonlab-ai/apis-publiques-france/releases/tag/v0.1.0
 

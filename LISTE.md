@@ -3,7 +3,7 @@
 > Page générée par `tools/actualiser.php` à chaque version du catalogue : ne pas la modifier à la main.
 > Ce que mesure le test, et ses limites : voir le [README](README.md).
 
-Catalogue du 18/11/2026 : 1269 API, 205 organisations. Les portails de plus de 30 API sont repliés en une ligne ; leur détail est dans [`data/apis.csv`](data/apis.csv).
+Catalogue du 25/11/2026 : 1270 API, 206 organisations. Les portails de plus de 30 API sont repliés en une ligne ; leur détail est dans [`data/apis.csv`](data/apis.csv).
 
 ## ADEME (113)
 
@@ -625,11 +625,11 @@ Catalogue du 18/11/2026 : 1269 API, 205 organisations. Les portails de plus de 3
 |---|---|---|
 | [Explore API v2 https://data.grandparissud.fr](https://www.data.gouv.fr/dataservices/explore-api-v2-90) | Ouvert | `repond` |
 
-## Grand Poitiers Open Data (143)
+## Grand Poitiers Open Data (142)
 
 | API | Accès | Test |
 |---|---|---|
-| 143 API sur `data.grandpoitiers.fr` : voir [`data/apis.csv`](data/apis.csv) | | 143 sur 143 répondent |
+| 142 API sur `data.grandpoitiers.fr` : voir [`data/apis.csv`](data/apis.csv) | | 142 sur 142 répondent |
 
 ## GRDF (2)
 
@@ -752,11 +752,12 @@ Catalogue du 18/11/2026 : 1269 API, 205 organisations. Les portails de plus de 3
 | [API Sirene dont unités à diffusion partielle](https://www.data.gouv.fr/dataservices/api-sirene-dont-unites-a-diffusion-partielle) | Restreint | `acces_refuse` |
 | [API Sirene open data](https://www.data.gouv.fr/dataservices/api-sirene-open-data) | Ouvert avec compte | `acces_refuse` |
 
-## Jour Tempo (1)
+## Jour Tempo (2)
 
 | API | Accès | Test |
 |---|---|---|
 | [API Tempo Jour Tempo](https://www.data.gouv.fr/dataservices/api-tempo-jour-tempo) | Ouvert | `repond` |
+| [Calendrier Tempo à s'abonner (iCalendar) : la couleur de chaque jour dans son agenda](https://www.data.gouv.fr/dataservices/calendrier-tempo-a-sabonner-icalendar-la-couleur-de-chaque-jour-dans-son-agenda) | Ouvert | `repond` |
 
 ## Karoto (1)
 
@@ -822,7 +823,7 @@ Catalogue du 18/11/2026 : 1269 API, 205 organisations. Les portails de plus de 3
 | API | Accès | Test |
 |---|---|---|
 | [API Données Lig'Air](https://www.data.gouv.fr/dataservices/api-donnees-ligair) | Ouvert | `introuvable` |
-| 31 API sur `datacarto.opendata-ligair.fr` : voir [`data/apis.csv`](data/apis.csv) | | 31 sur 31 répondent |
+| 31 API sur `datacarto.opendata-ligair.fr` : voir [`data/apis.csv`](data/apis.csv) | | 0 sur 31 répondent |
 
 ## Mairie de Cannes (1)
 
@@ -1051,7 +1052,7 @@ Catalogue du 18/11/2026 : 1269 API, 205 organisations. Les portails de plus de 3
 
 | API | Accès | Test |
 |---|---|---|
-| [API PasDeVélib](https://www.data.gouv.fr/dataservices/api-pasdevelib-1) | Ouvert | `repond` |
+| [API PasDeVélib](https://www.data.gouv.fr/dataservices/api-pasdevelib-1) | Ouvert | `erreur_client` |
 
 ## Pau Béarn Pyrénées Mobilités (2)
 
@@ -1177,8 +1178,8 @@ Catalogue du 18/11/2026 : 1269 API, 205 organisations. Les portails de plus de 3
 
 | API | Accès | Test |
 |---|---|---|
-| [BeeMob vehicle-positions GTFS-RT](https://www.data.gouv.fr/dataservices/beemob-vehicle-positions-gtfs-rt) | Ouvert | `injoignable` |
-| [BeeMobTrip\_Update gtfs rt](https://www.data.gouv.fr/dataservices/beemobtrip-update-gtfs-rt) | Ouvert | `injoignable` |
+| [BeeMob vehicle-positions GTFS-RT](https://www.data.gouv.fr/dataservices/beemob-vehicle-positions-gtfs-rt) | Ouvert | `repond` |
+| [BeeMobTrip\_Update gtfs rt](https://www.data.gouv.fr/dataservices/beemobtrip-update-gtfs-rt) | Ouvert | `repond` |
 
 ## Réseau de transport en commun Le Havre Seine Métropole LiA (1)
 
@@ -1193,13 +1194,19 @@ Catalogue du 18/11/2026 : 1269 API, 205 organisations. Les portails de plus de 3
 | [API Certif Info](https://www.data.gouv.fr/dataservices/api-certif-info) | Restreint | `non_teste` |
 | [API Kit Apprentissage](https://www.data.gouv.fr/dataservices/api-kit-apprentissage) | Restreint | `non_teste` |
 | [API QuiForme](https://www.data.gouv.fr/dataservices/api-quiforme) | Restreint | `non_teste` |
-| [Catalogue Apprentissage](https://www.data.gouv.fr/dataservices/catalogue-apprentissage) | Ouvert | `repond` |
+| [Catalogue Apprentissage](https://www.data.gouv.fr/dataservices/catalogue-apprentissage) | Ouvert | `erreur_serveur` |
 
 ## Résistance Haute-Savoie (1)
 
 | API | Accès | Test |
 |---|---|---|
 | [Résistance en Haute-Savoie, 1940-1945](https://www.data.gouv.fr/dataservices/resistance-en-haute-savoie-1940-1945) | Ouvert | `repond` |
+
+## reussir-mon-examen-civique.fr (1)
+
+| API | Accès | Test |
+|---|---|---|
+| [Examen civique : API des centres agréés, parcours et coordonnées](https://www.data.gouv.fr/dataservices/examen-civique-api-des-centres-agrees-parcours-et-coordonnees) | Ouvert | `introuvable` |
 
 ## Saemes (1)
 
@@ -1211,7 +1218,7 @@ Catalogue du 18/11/2026 : 1269 API, 205 organisations. Les portails de plus de 3
 
 | API | Accès | Test |
 |---|---|---|
-| [Insee](https://www.data.gouv.fr/dataservices/insee) | Ouvert | `erreur_serveur` |
+| [Insee](https://www.data.gouv.fr/dataservices/insee) | Ouvert | `repond` |
 
 ## Saint-Brieuc Armor Agglomération (11)
 

@@ -1,8 +1,8 @@
 {
     "source": "data.gouv.fr, catalogue des API",
     "page": "https://www.data.gouv.fr/dataservices/",
-    "date_source": "2026-11-18",
-    "nombre": 272,
+    "date_source": "2026-11-25",
+    "nombre": 274,
     "hotes": [
         {
             "hote": "datarmor.cotesdarmor.fr",
@@ -20,12 +20,12 @@
         },
         {
             "hote": "data.grandpoitiers.fr",
-            "nombre_apis": 143,
+            "nombre_apis": 142,
             "organisations": [
                 "Grand Poitiers Open Data"
             ],
             "resultat": "repond",
-            "nombre_qui_repondent": 143
+            "nombre_qui_repondent": 142
         },
         {
             "hote": "data.ademe.fr",
@@ -85,8 +85,8 @@
             "organisations": [
                 "Lig'Air"
             ],
-            "resultat": "repond",
-            "nombre_qui_repondent": 31
+            "resultat": "acces_refuse",
+            "nombre_qui_repondent": 0
         },
         {
             "hote": "particulier.api.gouv.fr",
@@ -370,8 +370,8 @@
             "organisations": [
                 "Réseau beeMob - Transports en commun de l'Agglomération Béziers Méditerranée"
             ],
-            "resultat": "injoignable",
-            "nombre_qui_repondent": 0
+            "resultat": "repond",
+            "nombre_qui_repondent": 2
         },
         {
             "hote": "journal-officiel-datadila.opendatasoft.com",
@@ -733,8 +733,8 @@
             "organisations": [
                 "PasDeVélib"
             ],
-            "resultat": "repond",
-            "nombre_qui_repondent": 1
+            "resultat": "erreur_client",
+            "nombre_qui_repondent": 0
         },
         {
             "hote": "api.renater.fr",
@@ -943,8 +943,8 @@
             "organisations": [
                 "Réseau des Carif-Oref"
             ],
-            "resultat": "repond",
-            "nombre_qui_repondent": 1
+            "resultat": "erreur_serveur",
+            "nombre_qui_repondent": 0
         },
         {
             "hote": "catalogue.data.anrdi.fr",
@@ -1595,6 +1595,15 @@
             "nombre_qui_repondent": 1
         },
         {
+            "hote": "donnees-tempo.pages.dev",
+            "nombre_apis": 1,
+            "organisations": [
+                "Jour Tempo"
+            ],
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
+        },
+        {
             "hote": "eclaire-api.sante.gouv.fr",
             "nombre_apis": 1,
             "organisations": [
@@ -2150,6 +2159,15 @@
             "nombre_qui_repondent": 1
         },
         {
+            "hote": "reussir-mon-examen-civique.fr",
+            "nombre_apis": 1,
+            "organisations": [
+                "reussir-mon-examen-civique.fr"
+            ],
+            "resultat": "introuvable",
+            "nombre_qui_repondent": 0
+        },
+        {
             "hote": "rnb-api.beta.gouv.fr",
             "nombre_apis": 1,
             "organisations": [
@@ -2367,8 +2385,8 @@
             "organisations": [
                 "Sailly-Lez-Lannoy"
             ],
-            "resultat": "erreur_serveur",
-            "nombre_qui_repondent": 0
+            "resultat": "repond",
+            "nombre_qui_repondent": 1
         },
         {
             "hote": "www.myfrenchtool.com",

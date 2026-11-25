@@ -1272,3 +1272,42 @@
 2026-11-18;entree;6afb704ea6df246ad9b5e3b9;Sentinelle phyto : produits phytosanitaires retirés et délais de vente et d'utilisation;Amacunia, accès ouvert, test introuvable
 2026-11-18;entree;6afb70e2027c0337c1e89ad6;Sentinelle syndic : syndic d'une copropriété et fin de son mandat;Amacunia, accès ouvert, test introuvable
 2026-11-18;entree;6afc9f8dddaccf47eeaf14b7;Serveur MCP OpenBase : entreprises françaises pour les assistants IA;OpenBase, accès ouvert, test repond
+2026-11-25;changement_test;6a84af8a333e729a11a0a372;API PasDeVélib;repond -> erreur_client
+2026-11-25;changement_test;67f8f490c6f38d277b3d0b28;BeeMob vehicle-positions GTFS-RT;injoignable -> repond
+2026-11-25;changement_test;67f8f2d1ff7a79cf3e04c72d;BeeMobTrip_Update gtfs rt;injoignable -> repond
+2026-11-25;entree;6b01afaacf2a252ad7cb8e7d;Calendrier Tempo à s'abonner (iCalendar) : la couleur de chaque jour dans son agenda;Jour Tempo, accès ouvert, test repond
+2026-11-25;changement_test;688374f1903ca948b2c7cbb6;Catalogue Apprentissage;repond -> erreur_serveur
+2026-11-25;changement_test;6a8847ca87f90b83dc89670c;Concentrations de polluants dans l’air ambiant issues de mesures manuelles en région Centre-Val de Loire (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c087f90b83dc8966ef;Concentrations moyennes annuelles de polluants dans l’air ambiant issues du réseau permanent de mesures automatiques en région Centre-Val de Loire (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c387f90b83dc8966f9;Concentrations moyennes horaires de polluants dans l’air ambiant issues du réseau permanent de mesures automatiques en région Centre-Val de Loire (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c087f90b83dc8966f1;Concentrations moyennes journalières de polluants dans l’air ambiant issues du réseau permanent de mesures automatiques en région Centre-Val de Loire (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c987f90b83dc89670a;Concentrations moyennes mensuelles de polluants dans l’air ambiant issues du réseau permanent de mesures automatiques en région Centre-Val de Loire (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c287f90b83dc8966f4;Emissions de polluants atmosphériques tous secteurs d’activité confondus dans la région Centre -Val de Loire (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c387f90b83dc8966f6;Emissions de polluants atmosphériques tous secteurs d’activité confondus dans la région Centre -Val de Loire (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c387f90b83dc8966f7;Emissions de polluants atmosphériques tous secteurs d’activité confondus dans la région Centre -Val de Loire (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c787f90b83dc896705;Emissions de polluants atmosphériques tous secteurs d’activité confondus dans la région Centre -Val de Loire (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c787f90b83dc896704;Emissions de polluants atmosphériques tous secteurs d’activité confondus dans les départements de la région Centre -Val de Loire (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c887f90b83dc896708;Emissions de polluants atmosphériques tous secteurs d’activité confondus dans les départements de la région Centre -Val de Loire (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c187f90b83dc8966f3;Emissions de polluants atmosphériques tous secteurs d’activité confondus dans les EPCI de la région Centre -Val de Loire (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c287f90b83dc8966f5;Emissions de polluants atmosphériques tous secteurs d’activité confondus dans les EPCI de la région Centre -Val de Loire (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c587f90b83dc8966fe;Emissions de polluants atmosphériques tous secteurs d’activité confondus dans les EPCI de la région Centre -Val de Loire (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c687f90b83dc8966ff;Emissions de polluants atmosphériques tous secteurs d’activité confondus dans les EPCI de la région Centre -Val de Loire (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c787f90b83dc896703;Épisode de pollution pour la région Centre-Val de Loire de la veille jusqu’au lendemain (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c087f90b83dc8966f0;Episodes de pollution pour la région Centre-Val de Loire pour l'année dernière et jusqu'à la veille (service WFS);repond -> acces_refuse
+2026-11-25;entree;6afddae50171e147a0872bf4;Examen civique : API des centres agréés, parcours et coordonnées;reussir-mon-examen-civique.fr, accès ouvert, test introuvable
+2026-11-25;changement_test;6a8847c687f90b83dc896701;Indice de qualité de l’air des agglomérations pour un an glissant et jusqu’au lendemain (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847ca87f90b83dc89670b;Indice de qualité de l’air des agglomérations sur 3 jours (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c687f90b83dc896700;Indice Pollen des agglomérations pour un an glissant et jusqu’au lendemain (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c487f90b83dc8966fb;Indice pollinique des agglomérations pour un an glissant et jusqu’au lendemain (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6936e774bce9fbf412b699d6;Insee;erreur_serveur -> repond
+2026-11-25;changement_test;6a8847c887f90b83dc896706;Populations et territoires exposés au dépassement de la valeur limite de PM10 et du NO2 sur la région Centre - Val de Loire pour l’année 2018 (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c187f90b83dc8966f2;Populations et territoires exposés au dépassement de la valeur limite de PM10 et du NO2 sur la région Centre - Val de Loire pour l’année 2020 (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c487f90b83dc8966fc;Populations et territoires exposés au dépassement de la valeur limite de PM10 et du NO2 sur la région Centre - Val de Loire pour l’année 2021 (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847bf87f90b83dc8966ee;Populations et territoires exposés au dépassement de la valeur limite de PM10 et du NO2 sur la région Centre - Val de Loire pour l’année 2022 (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c987f90b83dc896709;Populations et territoires exposés au dépassement de la valeur limite de PM10 et du NO2 sur la région Centre - Val de Loire pour l’année 2022 (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c587f90b83dc8966fd;Populations et territoires exposés au dépassement de la valeur limite de PM10 et du NO2 sur la région Centre - Val de Loire pour l’année 2023 (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c887f90b83dc896707;Populations et territoires exposés au dépassement de la valeur limite de PM10 et du NO2 sur les ZAS de la région Centre - Val de Loire pour l’année 2018 (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c387f90b83dc8966f8;Populations et territoires exposés au dépassement de la valeur limite de PM10 et du NO2 sur les ZAS de la région Centre - Val de Loire pour l’année 2020 (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c487f90b83dc8966fa;Populations et territoires exposés au dépassement de la valeur limite de PM10 et du NO2 sur les ZAS de la région Centre - Val de Loire pour l’année 2021 (service WFS);repond -> acces_refuse
+2026-11-25;changement_test;6a8847c687f90b83dc896702;Populations et territoires exposés au dépassement de la valeur limite de PM10 et du NO2 sur les ZAS de la région Centre - Val de Loire pour l’année 2023 (service WFS);repond -> acces_refuse
+2026-11-25;sortie;6a686ce59d8d520c2e119b75;Référentiel géographique - Cadastre - Données Hydrographie - Grand Poitiers Données de référence;absente du catalogue

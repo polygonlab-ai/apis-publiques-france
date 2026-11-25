@@ -55,22 +55,22 @@ Chiffres générés à chaque version, à partir de `data/apis.json`. La liste d
 [`LISTE.md`](LISTE.md).
 
 <!-- catalogue:debut -->
-Catalogue du 18/11/2026 : 1269 API, 272 hôtes, 205 organisations. Fichiers complets : [`data/apis.json`](data/apis.json) et [`data/apis.csv`](data/apis.csv). Liste par organisation : [`LISTE.md`](LISTE.md).
+Catalogue du 25/11/2026 : 1270 API, 274 hôtes, 206 organisations. Fichiers complets : [`data/apis.json`](data/apis.json) et [`data/apis.csv`](data/apis.csv). Liste par organisation : [`LISTE.md`](LISTE.md).
 
 | Type d'accès | Valeur | API |
 |---|---|---:|
-| Ouvert | `ouvert` | 1106 |
+| Ouvert | `ouvert` | 1107 |
 | Ouvert avec compte | `ouvert_avec_compte` | 44 |
 | Restreint | `restreint` | 119 |
 
 | Résultat du test | Valeur | API |
 |---|---|---:|
-| Répond | `repond` | 1108 |
-| Accès refusé | `acces_refuse` | 21 |
-| Introuvable | `introuvable` | 66 |
-| Erreur du client | `erreur_client` | 18 |
+| Répond | `repond` | 1078 |
+| Accès refusé | `acces_refuse` | 52 |
+| Introuvable | `introuvable` | 67 |
+| Erreur du client | `erreur_client` | 19 |
 | Erreur du serveur | `erreur_serveur` | 3 |
-| Injoignable | `injoignable` | 18 |
+| Injoignable | `injoignable` | 16 |
 | Non testé | `non_teste` | 35 |
 
 Les 20 organisations qui publient le plus d'API :
@@ -78,7 +78,7 @@ Les 20 organisations qui publient le plus d'API :
 | Organisation | API |
 |---|---:|
 | Département des Côtes d'Armor | 201 |
-| Grand Poitiers Open Data | 143 |
+| Grand Poitiers Open Data | 142 |
 | ADEME | 113 |
 | Direction interministérielle du numérique | 66 |
 | Electricité de France | 54 |
